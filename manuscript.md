@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-21" />
   <meta name="citation_publication_date" content="2023-11-21" />
   <meta property="article:published_time" content="2023-11-21" />
-  <meta name="dc.modified" content="2023-11-21T17:21:04+00:00" />
-  <meta property="article:modified_time" content="2023-11-21T17:21:04+00:00" />
+  <meta name="dc.modified" content="2023-11-21T18:04:31+00:00" />
+  <meta property="article:modified_time" content="2023-11-21T18:04:31+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/pgn-078-datos/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/a556cf5ce0a7f11daafdd2404014c8b4732c2236/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/a556cf5ce0a7f11daafdd2404014c8b4732c2236/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/a556cf5ce0a7f11daafdd2404014c8b4732c2236/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/091b916f0086a472093284269237728e334d62af/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/091b916f0086a472093284269237728e334d62af/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/091b916f0086a472093284269237728e334d62af/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a556cf5 de 21 Nov 2023
+| **Versión** del producto 1.091b916 de 21 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/pgn-078-datos/v/a556cf5ce0a7f11daafdd2404014c8b4732c2236/))
+([Web](https://hwong23.github.io/pgn-078-datos/v/091b916f0086a472093284269237728e334d62af/))
 están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@a556cf5](http://softgic.sharepoint.com)
+[Sharepoint Softgic@091b916](http://softgic.sharepoint.com)
 del November 21, 2023.
 </em></small>
 
@@ -144,6 +144,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.091b916 | 2023-11-21. SIM |
 | 1.a556cf5 | 2023-11-21. upd |
 | 1.96d8fb8 | 2023-11-21. upd |
 | 1.76abbb5 | 2023-11-08. pgndoc--datos |
@@ -153,7 +154,6 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | 1.0c6526d | 2023-10-22. histr1 |
 | 1.0aa655b | 2023-10-19. upd |
 | 1.fe68d66 | 2023-09-14. pndc |
-| 1.541d195 | 2023-09-14. build |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -262,10 +262,10 @@ Table: Requisito no. 2. {#tbl:requisito2-id}
 * [Diagrama Modelo de Datos Físico (diagramas entidad-relación)](#diagrama-modelo-de-datos-físico-diagramas-entidad-relación)
 	* [Migracion.2a.a3. Datos Modelo Físico ](#migracion.2a.a3.-datos-modelo-físico-)
 * [Diagrama Modelo de Datos Lógico](#diagrama-modelo-de-datos-lógico)
+	* [Migracion.2c1. Datos SIM](#migracion.2c1.-datos-sim)
 	* [Migracion.2c. Datos Hominis](#migracion.2c.-datos-hominis)
 	* [Migracion.2c3. Datos Control Interno](#migracion.2c3.-datos-control-interno)
 	* [Migracion.2c2. Datos SIRI](#migracion.2c2.-datos-siri)
-	* [Migracion.2c1. Datos SIM](#migracion.2c1.-datos-sim)
 * [Documento Diccionarios de Datos](#documento-diccionarios-de-datos)
 	* [Migracion.2a.a2. Datos Diccionario](#migracion.2a.a2.-datos-diccionario)
 * [Mapa de Información (flujos de información)](#mapa-de-información-flujos-de-información)
@@ -317,6 +317,62 @@ En contrucción.
 \newpage
 
 # Diagrama Modelo de Datos Lógico
+## Migracion.2c1. Datos SIM
+![Vista. Migracion.2c1. Datos SIM](images/Migracion.2c1.DatosSIM.png){#fig:Migracion.2c1.DatosSIM width=}
+
+Identificación de entidades de datos de negocio relacionadas al módulo de SUI, SIM.
+
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+|**APP5.SIM**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIM.<br>||
+|**DAT01.Actividad**|business-object|Actividad del SIM||
+|**DAT01.Actuación**|business-object|Actuación del SIM||
+|**DAT01.Agencia**|business-object|Agencia del SIM||
+|**DAT01.Atención Público**|business-object|||
+|**DAT01.Cargo**|business-object|Cargo del SIM||
+|**DAT01.Casos**|business-object|Casos del SIM||
+|**DAT01.Causa - Relación**|business-object|||
+|**DAT01.Causales**|business-object|Causales del SIM||
+|**DAT01.Citación**|business-object|Citación del SIM||
+|**DAT01.Clasificación**|business-object|Clasificación del SIM||
+|**DAT01.Conciliación**|business-object|Conciliación del SIM||
+|**DAT01.Corregimiento**|business-object|||
+|**DAT01.Demanda**|business-object|Demanda del SIM||
+|**DAT01.Departamento**|business-object|Departamentos del SIM.||
+|**DAT01.Dependencia**|business-object|Dependencia del SIM||
+|**DAT01.Derecho**|business-object|Derecho del SIM||
+|**DAT01.Detalle Actividad**|business-object|||
+|**DAT01.Detalle Entidad**|business-object|||
+|**DAT01.Documento**|business-object|Documento del SIM||
+|**DAT01.Entidad**|business-object|Entidad del SIM||
+|**DAT01.Formatos**|business-object|Formatos del SIM||
+|**DAT01.Funcionario**|business-object|Funcionario del SIM||
+|**DAT01.Grupo de Interés**|business-object|||
+|**DAT01.Instrumento**|business-object|Instrumento del SIM||
+|**DAT01.Interviniente**|business-object|Interviniente del SIM||
+|**DAT01.Municipio**|business-object|Municipio del SIM||
+|**DAT01.Objetivo Estratégico**|business-object|||
+|**DAT01.Observación**|business-object|Observación del SIM||
+|**DAT01.Ocupación**|business-object|Ocupación del SIM||
+|**DAT01.País**|business-object|País del SIM||
+|**DAT01.Persona**|business-object|Personas del SIM.||
+|**DAT01.Plan Ejecución**|business-object|Plan Ejecución del SIM||
+|**DAT01.Población**|business-object|Población del SIM||
+|**DAT01.Prevención**|business-object|Prevención del SIM||
+|**DAT01.Proceso**|business-object|Proceso del SIM||
+|**DAT01.Protocolo**|business-object|Protocolo del SIM||
+|**DAT01.Radicación**|business-object|Radicación del SIM||
+|**DAT01.Recusación**|business-object|Recusación del SIM||
+|**DAT01.Relación Casos**|business-object|Relación casos del SIM||
+|**DAT01.Sector**|business-object|Sector del SIM||
+|**DAT01.Ubicación**|business-object|Ubicación del SIM||
+
+<br>
+
 ## Migracion.2c. Datos Hominis
 ![Vista. Migracion.2c. Datos Hominis](images/Migracion.2c.DatosHominis.png){#fig:Migracion.2c.DatosHominis width=5.32in}
 
@@ -384,25 +440,6 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 |:--------|:--------|:--------|:--------|
 |**APP2.SIRI**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIRI.<br>||
 |**DAT.Entidad**|business-object|||
-
-<br>
-
-## Migracion.2c1. Datos SIM
-![Vista. Migracion.2c1. Datos SIM](images/Migracion.2c1.DatosSIM.png){#fig:Migracion.2c1.DatosSIM width=}
-
-Identificación de entidades de datos de negocio relacionadas al módulo de SUI, SIM.
-
-Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**APP5.SIM**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIM.<br>||
-|**DAT.Corregimiento**|business-object|||
-|**DAT.Departamento**|business-object|||
-|**DAT.Municipio**|business-object|||
-|**DAT.País**|business-object|||
 
 <br>
 
@@ -524,7 +561,7 @@ En construcción.
 <br>
 
 
-``Generated on: Tue Nov 21 2023 10:32:03 GMT-0500 (COT)``
+``Generated on: Tue Nov 21 2023 13:02:11 GMT-0500 (COT)``
 
 ## Requerimientos de Administración
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
