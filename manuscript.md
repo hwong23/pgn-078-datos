@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - PGN
 lang: en-US
-date-meta: '2023-11-21'
+date-meta: '2023-11-23'
 author-meta:
 - Harry Wong, ing.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-11-21" />
-  <meta name="citation_publication_date" content="2023-11-21" />
-  <meta property="article:published_time" content="2023-11-21" />
-  <meta name="dc.modified" content="2023-11-21T18:04:31+00:00" />
-  <meta property="article:modified_time" content="2023-11-21T18:04:31+00:00" />
+  <meta name="dc.date" content="2023-11-23" />
+  <meta name="citation_publication_date" content="2023-11-23" />
+  <meta property="article:published_time" content="2023-11-23" />
+  <meta name="dc.modified" content="2023-11-23T12:29:55+00:00" />
+  <meta property="article:modified_time" content="2023-11-23T12:29:55+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/pgn-078-datos/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/091b916f0086a472093284269237728e334d62af/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/091b916f0086a472093284269237728e334d62af/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/091b916f0086a472093284269237728e334d62af/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/bd9674d4927bc6d0097bdecc235800bfe4335a69/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/bd9674d4927bc6d0097bdecc235800bfe4335a69/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/bd9674d4927bc6d0097bdecc235800bfe4335a69/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.091b916 de 21 Nov 2023
+| **Versión** del producto 1.bd9674d de 23 Nov 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 21 Nov 2023
+| 23 Nov 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/pgn-078-datos/v/091b916f0086a472093284269237728e334d62af/))
+([Web](https://hwong23.github.io/pgn-078-datos/v/bd9674d4927bc6d0097bdecc235800bfe4335a69/))
 están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@091b916](http://softgic.sharepoint.com)
-del November 21, 2023.
+[Sharepoint Softgic@bd9674d](http://softgic.sharepoint.com)
+del November 23, 2023.
 </em></small>
 
 
@@ -144,6 +144,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.bd9674d | 2023-11-23. ppt1 |
 | 1.091b916 | 2023-11-21. SIM |
 | 1.a556cf5 | 2023-11-21. upd |
 | 1.96d8fb8 | 2023-11-21. upd |
@@ -153,7 +154,6 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | 1.4ca9172 | 2023-10-22. histr2 |
 | 1.0c6526d | 2023-10-22. histr1 |
 | 1.0aa655b | 2023-10-19. upd |
-| 1.fe68d66 | 2023-09-14. pndc |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -258,7 +258,7 @@ Table: Requisito no. 2. {#tbl:requisito2-id}
 
 # Arquitectura de Información (Datos)
 * [Diagrama Modelo de Datos Conceptual](#diagrama-modelo-de-datos-conceptual)
-	* [Migracion.2a.a1.Datos Lógico](#migracion.2a.a1.datos-lógico)
+	* [Migracion.2a.a1.Datos Información](#migracion.2a.a1.datos-información)
 * [Diagrama Modelo de Datos Físico (diagramas entidad-relación)](#diagrama-modelo-de-datos-físico-diagramas-entidad-relación)
 	* [Migracion.2a.a3. Datos Modelo Físico ](#migracion.2a.a3.-datos-modelo-físico-)
 * [Diagrama Modelo de Datos Lógico](#diagrama-modelo-de-datos-lógico)
@@ -280,20 +280,37 @@ Table: Requisito no. 2. {#tbl:requisito2-id}
 \newpage
 
 # Diagrama Modelo de Datos Conceptual
-## Migracion.2a.a1.Datos Lógico
-![Vista. Migracion.2a.a1.Datos Lógico](images/Migracion.2a.a1.DatosLógico.png){#fig:Migracion.2a.a1.DatosLógico width=5.32in}
+## Migracion.2a.a1.Datos Información
+![Vista. Migracion.2a.a1.Datos Información](images/Migracion.2a.a1.DatosInformación.png){#fig:Migracion.2a.a1.DatosInformación width=5.32in}
 
-Organización de los grupos de datos (dominios) del SUI Migrado, 2023.
+Modelo de información. Organización y jerarquía de los grupos de datos (dominios) del SUI Migrado, 2023. 
+
+### Dominios Principales de Información SUI Migrado
+
+* Dominio común: SIM
+* Dominios individuales
+	* Hominis: Planta de personal, Hojas de vida, Seguimiento de desempeño, Carrera administrativa
+	* Conjunto de datos Relatoría
+	* Control Interno
+	* Conciliación Administrativa
+
+<br>
 
 
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
+|**DAT. Conciliación Administrativa**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
 |**DAT. Control Interno**|business-object|||
 |**DAT. Estratego**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
 |**DAT. Hominis**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
+|**DAT. Hominis. Carrera Administrativa**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
+|**DAT. Hominis. Hojas Vida**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
+|**DAT. Hominis. Planta Personal**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
+|**DAT. Hominis. Seguimiento Desempeño**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
+|**DAT. Relatoría**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
 |**DAT. SIAF**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. SIM**|business-object|||
+|**DAT. SIM: lappiz**|business-object|||
 |**DAT. SIRI**|business-object|||
 
 <br>
@@ -305,7 +322,13 @@ Organización de los grupos de datos (dominios) del SUI Migrado, 2023.
 ## Migracion.2a.a3. Datos Modelo Físico 
 ![Vista. Migracion.2a.a3. Datos Modelo Físico ](images/Migracion.2a.a3.DatosModeloFísico.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
 
-En contrucción.
+Los modelos físicos representados en diagramas entidad - relación (ER) de los módulos SUI Migrado, como Hominis, Control Interno, Relatoría, SIRI, serán entregados como documentos aparte, anexos al documento actual en formato reproducible.
+
+El formato reproducible en el que entregamos el modelo físico mediante la herramienta libre Draw.io.
+
+ER_SUI.png
+
+
 
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
@@ -329,6 +352,7 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**APP5.SIM**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIM.<br>||
+|**DAT. SIM: lappiz**|business-object|||
 |**DAT01.Actividad**|business-object|Actividad del SIM||
 |**DAT01.Actuación**|business-object|Actuación del SIM||
 |**DAT01.Agencia**|business-object|Agencia del SIM||
@@ -561,7 +585,7 @@ En construcción.
 <br>
 
 
-``Generated on: Tue Nov 21 2023 13:02:11 GMT-0500 (COT)``
+``Generated on: Thu Nov 23 2023 07:26:10 GMT-0500 (COT)``
 
 ## Requerimientos de Administración
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
