@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-23" />
   <meta name="citation_publication_date" content="2023-11-23" />
   <meta property="article:published_time" content="2023-11-23" />
-  <meta name="dc.modified" content="2023-11-23T12:29:55+00:00" />
-  <meta property="article:modified_time" content="2023-11-23T12:29:55+00:00" />
+  <meta name="dc.modified" content="2023-11-23T19:10:43+00:00" />
+  <meta property="article:modified_time" content="2023-11-23T19:10:43+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/pgn-078-datos/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/bd9674d4927bc6d0097bdecc235800bfe4335a69/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/bd9674d4927bc6d0097bdecc235800bfe4335a69/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/bd9674d4927bc6d0097bdecc235800bfe4335a69/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/3996a6d5c0567bf79c10d99b34b069fbba59e975/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/3996a6d5c0567bf79c10d99b34b069fbba59e975/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/3996a6d5c0567bf79c10d99b34b069fbba59e975/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.bd9674d de 23 Nov 2023
+| **Versión** del producto 1.3996a6d de 23 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/pgn-078-datos/v/bd9674d4927bc6d0097bdecc235800bfe4335a69/))
+([Web](https://hwong23.github.io/pgn-078-datos/v/3996a6d5c0567bf79c10d99b34b069fbba59e975/))
 están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@bd9674d](http://softgic.sharepoint.com)
+[Sharepoint Softgic@3996a6d](http://softgic.sharepoint.com)
 del November 23, 2023.
 </em></small>
 
@@ -144,6 +144,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.3996a6d | 2023-11-23. arqdoc1 |
 | 1.bd9674d | 2023-11-23. ppt1 |
 | 1.091b916 | 2023-11-21. SIM |
 | 1.a556cf5 | 2023-11-21. upd |
@@ -153,7 +154,6 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | 1.db7423f | 2023-10-22. histr3 |
 | 1.4ca9172 | 2023-10-22. histr2 |
 | 1.0c6526d | 2023-10-22. histr1 |
-| 1.0aa655b | 2023-10-19. upd |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -326,7 +326,7 @@ Los modelos físicos representados en diagramas entidad - relación (ER) de los 
 
 El formato reproducible en el que entregamos el modelo físico mediante la herramienta libre Draw.io.
 
-ER_SUI.png
+![Vista. Migracion.2a.a3. Datos Modelo Físico ](images/ER-SIU.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
 
 
 
@@ -474,7 +474,12 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 ## Migracion.2a.a2. Datos Diccionario
 ![Vista. Migracion.2a.a2. Datos Diccionario](images/Migracion.2a.a2.DatosDiccionario.png){#fig:Migracion.2a.a2.DatosDiccionario width=5.32in}
 
-En construcción.
+Los diccionarios de datos explicativos de los modelos de datos físicos de los módulos del SUI Migrado, representados en tablas campo-descripción, serán entregados como documentos anexos aparte del documento de arquitectura de datos actual, y en formato reproducible.
+
+El formato reproducible en el que entregamos los diccionarios de datos del modelo físico es DOCX.
+
+![Migracion.2a.a2. Datos Diccionario ](images/PGNSIMdiccionario.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
+
 
 
 ### Catálogo de Elementos
@@ -585,7 +590,7 @@ En construcción.
 <br>
 
 
-``Generated on: Thu Nov 23 2023 07:26:10 GMT-0500 (COT)``
+``Generated on: Thu Nov 23 2023 14:06:13 GMT-0500 (COT)``
 
 ## Requerimientos de Administración
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
