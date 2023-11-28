@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - PGN
 lang: en-US
-date-meta: '2023-11-23'
+date-meta: '2023-11-28'
 author-meta:
 - Harry Wong, ing.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-11-23" />
-  <meta name="citation_publication_date" content="2023-11-23" />
-  <meta property="article:published_time" content="2023-11-23" />
-  <meta name="dc.modified" content="2023-11-23T19:23:15+00:00" />
-  <meta property="article:modified_time" content="2023-11-23T19:23:15+00:00" />
+  <meta name="dc.date" content="2023-11-28" />
+  <meta name="citation_publication_date" content="2023-11-28" />
+  <meta property="article:published_time" content="2023-11-28" />
+  <meta name="dc.modified" content="2023-11-28T14:32:56+00:00" />
+  <meta property="article:modified_time" content="2023-11-28T14:32:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/pgn-078-datos/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/2774000b8fa9cd49bf550fa803816519df3d810b/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/2774000b8fa9cd49bf550fa803816519df3d810b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/2774000b8fa9cd49bf550fa803816519df3d810b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/ce7fa4e3f0f62dff0280d60b061d50cb25499a5b/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/ce7fa4e3f0f62dff0280d60b061d50cb25499a5b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/ce7fa4e3f0f62dff0280d60b061d50cb25499a5b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.2774000 de 23 Nov 2023
+| **Versión** del producto 1.ce7fa4e de 28 Nov 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 23 Nov 2023
+| 28 Nov 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/pgn-078-datos/v/2774000b8fa9cd49bf550fa803816519df3d810b/))
+([Web](https://hwong23.github.io/pgn-078-datos/v/ce7fa4e3f0f62dff0280d60b061d50cb25499a5b/))
 están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@2774000](http://softgic.sharepoint.com)
-del November 23, 2023.
+[Sharepoint Softgic@ce7fa4e](http://softgic.sharepoint.com)
+del November 28, 2023.
 </em></small>
 
 
@@ -144,6 +144,8 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.ce7fa4e | 2023-11-28. doc--nov |
+| 1.61ab07e | 2023-11-28. doc--nov |
 | 1.2774000 | 2023-11-23. arqdoc1 |
 | 1.3996a6d | 2023-11-23. arqdoc1 |
 | 1.bd9674d | 2023-11-23. ppt1 |
@@ -152,8 +154,6 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | 1.96d8fb8 | 2023-11-21. upd |
 | 1.76abbb5 | 2023-11-08. pgndoc--datos |
 | 1.90a2e36 | 2023-10-22. histr4 |
-| 1.db7423f | 2023-10-22. histr3 |
-| 1.4ca9172 | 2023-10-22. histr2 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -590,7 +590,12 @@ En construcción.
 <br>
 
 
+<<<<<<< HEAD
+``Generated on: Tue Nov 28 2023 09:30:23 GMT-0500 (COT)``
+=======
 ``Generated on: Thu Nov 23 2023 14:06:13 GMT-0500 (COT)``
+>>>>>>> 2774000b8fa9cd49bf550fa803816519df3d810b
+
 
 ## Requerimientos de Administración
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
