@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-29" />
   <meta name="citation_publication_date" content="2023-11-29" />
   <meta property="article:published_time" content="2023-11-29" />
-  <meta name="dc.modified" content="2023-11-29T19:08:47+00:00" />
-  <meta property="article:modified_time" content="2023-11-29T19:08:47+00:00" />
+  <meta name="dc.modified" content="2023-11-29T19:37:50+00:00" />
+  <meta property="article:modified_time" content="2023-11-29T19:37:50+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/pgn-078-datos/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/af72748f13196789a47a9838122e753fc4f8bf2b/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/af72748f13196789a47a9838122e753fc4f8bf2b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/af72748f13196789a47a9838122e753fc4f8bf2b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/20c257e57f811fae6168770897df7eff403476a8/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/20c257e57f811fae6168770897df7eff403476a8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/20c257e57f811fae6168770897df7eff403476a8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.af72748 de 29 Nov 2023
+| **Versión** del producto 1.20c257e de 29 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SUI, Contrato 078-2023, 
-([Web](https://hwong23.github.io/pgn-078-datos/v/af72748f13196789a47a9838122e753fc4f8bf2b/))
+([Web](https://hwong23.github.io/pgn-078-datos/v/20c257e57f811fae6168770897df7eff403476a8/))
 están basados en el resultado de la Fase 1 del proyecto PGN SUI del 2022,
-[Sharepoint Softgic@af72748](http://softgic.sharepoint.com)
+[Sharepoint Softgic@20c257e](http://softgic.sharepoint.com)
 del November 29, 2023.
 </em></small>
 
@@ -144,6 +144,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.20c257e | 2023-11-29. doc SUI* |
 | 1.af72748 | 2023-11-29. doc SUI* |
 | 1.a95d7c9 | 2023-11-28. doc--nov |
 | 1.ce7fa4e | 2023-11-28. doc--nov |
@@ -153,7 +154,6 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | 1.bd9674d | 2023-11-23. ppt1 |
 | 1.091b916 | 2023-11-21. SIM |
 | 1.a556cf5 | 2023-11-21. upd |
-| 1.96d8fb8 | 2023-11-21. upd |
 | Vínculos       | [N003a Vista Segmento PGN SUI](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -326,7 +326,7 @@ Los modelos físicos representados en diagramas entidad - relación (ER) de los 
 
 El formato reproducible en el que entregamos el modelo físico mediante la herramienta libre Draw.io.
 
-![Vista. Migracion.2a.a3. Datos Modelo Físico ](images/ER-SUI.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
+![Vista. Migracion.2a.a3. Datos Modelo Físico ](images/ER-SIU.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
 
 
 
