@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - PGN
 lang: en-US
-date-meta: '2023-11-28'
+date-meta: '2023-11-29'
 author-meta:
 - Harry Wong, ing.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-11-28" />
-  <meta name="citation_publication_date" content="2023-11-28" />
-  <meta property="article:published_time" content="2023-11-28" />
-  <meta name="dc.modified" content="2023-11-28T14:38:07+00:00" />
-  <meta property="article:modified_time" content="2023-11-28T14:38:07+00:00" />
+  <meta name="dc.date" content="2023-11-29" />
+  <meta name="citation_publication_date" content="2023-11-29" />
+  <meta property="article:published_time" content="2023-11-29" />
+  <meta name="dc.modified" content="2023-11-29T19:08:47+00:00" />
+  <meta property="article:modified_time" content="2023-11-29T19:08:47+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/pgn-078-datos/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/a95d7c95369dfcbc37bbd3beb91a2ef4f7bcd635/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/a95d7c95369dfcbc37bbd3beb91a2ef4f7bcd635/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/a95d7c95369dfcbc37bbd3beb91a2ef4f7bcd635/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/af72748f13196789a47a9838122e753fc4f8bf2b/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/af72748f13196789a47a9838122e753fc4f8bf2b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/af72748f13196789a47a9838122e753fc4f8bf2b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -53,8 +53,8 @@ manubot-clear-requests-cache: false
 ...
 
 ---
-title: Documento de Arquitectura Migración Funcional PGN SIU
-subtitle: OP 078-2023 - Fase 2, PGN Migración Funcional SIU
+title: Documento de Arquitectura Migración Funcional PGN SUI
+subtitle: OP 078-2023 - Fase 2, PGN Migración Funcional SUI
 geometry:
   - top=1in
   - bottom=1in
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a95d7c9 de 28 Nov 2023
+| **Versión** del producto 1.af72748 de 29 Nov 2023
 
 | **Presentado a**
 
@@ -87,18 +87,18 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 28 Nov 2023
+| 29 Nov 2023
 
 
 <div style="page-break-before: always;"></div>
 \newpage
 
 
-<small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/pgn-078-datos/v/a95d7c95369dfcbc37bbd3beb91a2ef4f7bcd635/))
-están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@a95d7c9](http://softgic.sharepoint.com)
-del November 28, 2023.
+<small><em>Los productos de esta etapa, Migración Funcional SUI, Contrato 078-2023, 
+([Web](https://hwong23.github.io/pgn-078-datos/v/af72748f13196789a47a9838122e753fc4f8bf2b/))
+están basados en el resultado de la Fase 1 del proyecto PGN SUI del 2022,
+[Sharepoint Softgic@af72748](http://softgic.sharepoint.com)
+del November 29, 2023.
 </em></small>
 
 
@@ -132,18 +132,19 @@ del November 28, 2023.
 
 
 ## Objetivo del Documento
-Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto Migración Funcional SIU de la Procuraduría General de la Nación (PGN en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las partes del sistema. Por tanto, el documento contiene información estratégica, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
+Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto Migración Funcional SUI de la Procuraduría General de la Nación (PGN en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las partes del sistema. Por tanto, el documento contiene información estratégica, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
 
 
 <br>
 
 ##  Control de Cambios {.page_break_before}
-| Tema           | OP 078-2023 Fase 2, PGN Migración Funcional SIU      |
+| Tema           | OP 078-2023 Fase 2, PGN Migración Funcional SUI      |
 |----------------|----------------------------|
-| Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Comparativa              |
+| Palabras clave | SUI, Softgic, PGN, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.af72748 | 2023-11-29. doc SUI* |
 | 1.a95d7c9 | 2023-11-28. doc--nov |
 | 1.ce7fa4e | 2023-11-28. doc--nov |
 | 1.61ab07e | 2023-11-28. doc--nov |
@@ -153,8 +154,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | 1.091b916 | 2023-11-21. SIM |
 | 1.a556cf5 | 2023-11-21. upd |
 | 1.96d8fb8 | 2023-11-21. upd |
-| 1.76abbb5 | 2023-11-08. pgndoc--datos |
-| Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
+| Vínculos       | [N003a Vista Segmento PGN SUI](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
 
@@ -201,7 +201,7 @@ Lista de restricciones de la migración SUI, 2023.
 
 1. Restricciones de hardware o software en servidores. Los equipos de infraestructura del proyecto actual a tener en cuenta en los diseños de la solución de esta Fase 2 serán los mismos de la anterior Fase 1. Esto es, los que están descritos en el anexo técnico del contrato del proyecto.
 1. Disponibilidad de recursos. Los recursos de implementación y validación de calidad de esta Fase del proyecto son los mismos a tener en cuenta en los diseños de la solución de esta Fase 2. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
-1. Estándares. Los estándares seleccionados por la solución de este proyecto, (Fase 2, PGN Migración Funcional SIU, están determinados por el uso de las plataformas específicas determinadas por la implementación (desarrollo del software).
+1. Estándares. Los estándares seleccionados por la solución de este proyecto, (Fase 2, PGN Migración Funcional SUI, están determinados por el uso de las plataformas específicas determinadas por la implementación (desarrollo del software).
 1. Requerimientos de interoperabilidad. Los recursos de interoperabilidad y colaboración entre sistemas, módulos, submódulos y aplicaciones de terceros relacionados con esta Fase del proyecto son los mismos a tener en cuenta en los diseños de la solución de esta Fase 2. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
 1. Requerimientos de protocolos o interfaces. Los recursos de red, y protocolos de comunicación o transporte de esta Fase del proyecto a tener en cuenta en los diseños de la solución de esta Fase 2 parten de la base de los considerados en la anterior Fase 1. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
 1. Seguridad. Las restricciones de seguridad del proyecto actual a tener en cuenta en los diseños de la solución de esta Fase 2 parten de la base de las de la anterior Fase 1. Esto es, los que están descritos en el anexo técnico del contrato del proyecto.
@@ -326,7 +326,7 @@ Los modelos físicos representados en diagramas entidad - relación (ER) de los 
 
 El formato reproducible en el que entregamos el modelo físico mediante la herramienta libre Draw.io.
 
-![Vista. Migracion.2a.a3. Datos Modelo Físico ](images/ER-SIU.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
+![Vista. Migracion.2a.a3. Datos Modelo Físico ](images/ER-SUI.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
 
 
 
@@ -513,10 +513,10 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 |**APP4.Hominis**|application-component|Módulo del SUI. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
 |**APP6.Estratego**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: Estratego.<br>||
 |**Interacción SUI - SIM**|application-interaction|Interacción de API SUI con API SIM para el transporte de entidades de negocio. Los tipos de datos que utilizan esta interacción entre aplicaciones son los datos externos al módulo central SUI que los requiera, los datos históricos que están por fuera del móduo SUI migrado, y los datos transaccionales de otros módulos SUI migrados.<br>||
-|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SIU Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Interfaz de Almacenaniento**|application-interface|Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del SUI.<br>||
 |**Procesamiento de lotes PGN**|application-process|Los procesos de lotes, que requieren volumenes de datos altos, deben hacer parte de la arquitectura de datos del SUI.<br>||
-|**API Externa (flujo de datos)**|application-service|El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SIU Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**API Externa (flujo de datos)**|application-service|El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Datos externos**|data-object|||
 |**Datos históricos**|data-object|||
 |**Datos transaccionales SUI**|data-object|||
@@ -542,7 +542,7 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 |**cc:PGN SUI (módulo central)**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
 |**APP5.SIM**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIM.<br>||
 |**Interacción SUI - SIM**|application-interaction|Interacción de API SUI con API SIM para el transporte de entidades de negocio. Los tipos de datos que utilizan esta interacción entre aplicaciones son los datos externos al módulo central SUI que los requiera, los datos históricos que están por fuera del móduo SUI migrado, y los datos transaccionales de otros módulos SUI migrados.<br>||
-|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SIU Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Interfaz de Almacenaniento**|application-interface|Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del SUI.<br>||
 |**Datos externos**|data-object|||
 |**Datos históricos**|data-object|||
@@ -565,8 +565,8 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 |:--------|:--------|:--------|:--------|
 |**cc:PGN SUI (módulo central)**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
 |**cc:PGN SUI (módulo central) 2**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SIU Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
-|**Interfaz de Acceso Proveedores 2**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SIU Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**Interfaz de Acceso Proveedores 2**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Interfaz de Almacenaniento**|application-interface|Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del SUI.<br>||
 |**Datos transaccionales SUI**|data-object|||
 |**Datos transaccionales módulo SUI**|data-object|Registros de trabajo de un módulo SUI Migrado, 2023.<br>||
