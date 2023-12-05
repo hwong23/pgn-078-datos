@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-05" />
   <meta name="citation_publication_date" content="2023-12-05" />
   <meta property="article:published_time" content="2023-12-05" />
-  <meta name="dc.modified" content="2023-12-05T18:51:29+00:00" />
-  <meta property="article:modified_time" content="2023-12-05T18:51:29+00:00" />
+  <meta name="dc.modified" content="2023-12-05T18:57:33+00:00" />
+  <meta property="article:modified_time" content="2023-12-05T18:57:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/pgn-078-datos/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/30bf40358d2b35cfad2ec97c0d672ff597e6d245/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/30bf40358d2b35cfad2ec97c0d672ff597e6d245/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/30bf40358d2b35cfad2ec97c0d672ff597e6d245/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/642346290b5157202fec029b2536e52381408e34/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/642346290b5157202fec029b2536e52381408e34/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/642346290b5157202fec029b2536e52381408e34/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.30bf403 de 05 Dec 2023
+| **Versión** del producto 1.6423462 de 05 Dec 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SUI, Contrato 078-2023, 
-([Web](https://hwong23.github.io/pgn-078-datos/v/30bf40358d2b35cfad2ec97c0d672ff597e6d245/))
+([Web](https://hwong23.github.io/pgn-078-datos/v/642346290b5157202fec029b2536e52381408e34/))
 están basados en el resultado de la Fase 1 del proyecto PGN SUI del 2022,
-[Sharepoint Softgic@30bf403](http://softgic.sharepoint.com)
+[Sharepoint Softgic@6423462](http://softgic.sharepoint.com)
 del December 5, 2023.
 </em></small>
 
@@ -144,6 +144,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.6423462 | 2023-12-05. pptx--pgn |
 | 1.30bf403 | 2023-12-05. pptx--pgn |
 | 1.20c257e | 2023-11-29. doc SUI* |
 | 1.af72748 | 2023-11-29. doc SUI* |
@@ -153,7 +154,6 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | 1.2774000 | 2023-11-23. arqdoc1 |
 | 1.3996a6d | 2023-11-23. arqdoc1 |
 | 1.bd9674d | 2023-11-23. ppt1 |
-| 1.091b916 | 2023-11-21. SIM |
 | Vínculos       | [N003a Vista Segmento PGN SUI](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -588,13 +588,6 @@ En construcción.
 |:--------|:--------|:--------|:--------|
 
 <br>
-
-
-<<<<<<< HEAD
-``Generated on: Tue Nov 28 2023 09:30:23 GMT-0500 (COT)``
-=======
-``Generated on: Thu Nov 23 2023 14:06:13 GMT-0500 (COT)``
->>>>>>> 2774000b8fa9cd49bf550fa803816519df3d810b
 
 
 # Arquitectura de Software: Infraestructura
@@ -1168,7 +1161,7 @@ Con una arquitectura orientada a servicios Sistema Único de Información (SUI) 
 <br>
 
 
-``Generated on: Tue Dec 05 2023 13:46:58 GMT-0500 (COT)``
+``Generated on: Tue Dec 05 2023 13:55:04 GMT-0500 (COT)``
 
 ## Requerimientos de Administración
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
