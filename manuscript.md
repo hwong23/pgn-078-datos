@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - PGN
 lang: en-US
-date-meta: '2023-12-05'
+date-meta: '2023-12-14'
 author-meta:
 - Harry Wong, ing.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-12-05" />
-  <meta name="citation_publication_date" content="2023-12-05" />
-  <meta property="article:published_time" content="2023-12-05" />
-  <meta name="dc.modified" content="2023-12-05T18:57:33+00:00" />
-  <meta property="article:modified_time" content="2023-12-05T18:57:33+00:00" />
+  <meta name="dc.date" content="2023-12-14" />
+  <meta name="citation_publication_date" content="2023-12-14" />
+  <meta property="article:published_time" content="2023-12-14" />
+  <meta name="dc.modified" content="2023-12-14T21:01:28+00:00" />
+  <meta property="article:modified_time" content="2023-12-14T21:01:28+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/pgn-078-datos/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/pgn-078-datos/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/642346290b5157202fec029b2536e52381408e34/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/642346290b5157202fec029b2536e52381408e34/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/642346290b5157202fec029b2536e52381408e34/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/pgn-078-datos/v/bd423d2b24d386b470fab653852c9556ac7762e4/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/bd423d2b24d386b470fab653852c9556ac7762e4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/pgn-078-datos/v/bd423d2b24d386b470fab653852c9556ac7762e4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.6423462 de 05 Dec 2023
+| **Versión** del producto 1.bd423d2 de 14 Dec 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 05 Dec 2023
+| 14 Dec 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SUI, Contrato 078-2023, 
-([Web](https://hwong23.github.io/pgn-078-datos/v/642346290b5157202fec029b2536e52381408e34/))
+([Web](https://hwong23.github.io/pgn-078-datos/v/bd423d2b24d386b470fab653852c9556ac7762e4/))
 están basados en el resultado de la Fase 1 del proyecto PGN SUI del 2022,
-[Sharepoint Softgic@6423462](http://softgic.sharepoint.com)
-del December 5, 2023.
+[Sharepoint Softgic@bd423d2](http://softgic.sharepoint.com)
+del December 14, 2023.
 </em></small>
 
 
@@ -144,6 +144,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.bd423d2 | 2023-12-14. doc--dic |
 | 1.6423462 | 2023-12-05. pptx--pgn |
 | 1.30bf403 | 2023-12-05. pptx--pgn |
 | 1.20c257e | 2023-11-29. doc SUI* |
@@ -153,7 +154,6 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | 1.61ab07e | 2023-11-28. doc--nov |
 | 1.2774000 | 2023-11-23. arqdoc1 |
 | 1.3996a6d | 2023-11-23. arqdoc1 |
-| 1.bd9674d | 2023-11-23. ppt1 |
 | Vínculos       | [N003a Vista Segmento PGN SUI](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -261,6 +261,7 @@ Table: Requisito no. 2. {#tbl:requisito2-id}
 	* [Migracion.2a.a1.Datos Información](#migracion.2a.a1.datos-información)
 * [Diagrama Modelo de Datos Físico (diagramas entidad-relación)](#diagrama-modelo-de-datos-físico-diagramas-entidad-relación)
 	* [Migracion.2a.a3. Datos Modelo Físico ](#migracion.2a.a3.-datos-modelo-físico-)
+	* [Migracion.2a.a3. Datos Modelo Físico. Dominios](#migracion.2a.a3.-datos-modelo-físico.-dominios)
 * [Diagrama Modelo de Datos Lógico](#diagrama-modelo-de-datos-lógico)
 	* [Migracion.2c1. Datos SIM](#migracion.2c1.-datos-sim)
 	* [Migracion.2c. Datos Hominis](#migracion.2c.-datos-hominis)
@@ -283,11 +284,14 @@ Table: Requisito no. 2. {#tbl:requisito2-id}
 ## Migracion.2a.a1.Datos Información
 ![Vista. Migracion.2a.a1.Datos Información](images/Migracion.2a.a1.DatosInformación.png){#fig:Migracion.2a.a1.DatosInformación width=5.32in}
 
-Modelo de información. Organización y jerarquía de los grupos de datos (dominios) del SUI Migrado, 2023. 
+Modelo de información del Sistema Único de Información (SUI). Organización y jerarquía de los grupos de datos, llamados dominios de información, del SUI Migrado, 2023. 
+
+La jerarquía de los dominios de información, empresarial (mayor jerarquía), misional y de negocio (tercer nivel de jerarquía) permite establecer las reglas de acceso, el tipo de almacenamiento físico, y las estrategias de distribución de estos dominios, acorde al gobierno de datos que PGN realice.
 
 ### Dominios Principales de Información SUI Migrado
 
-* Dominio común: SIM
+* Dominio común: PGN
+* Dominio de información SIM
 * Dominios individuales
 	* Hominis: Planta de personal, Hojas de vida, Seguimiento de desempeño, Carrera administrativa
 	* Conjunto de datos Relatoría
@@ -296,22 +300,46 @@ Modelo de información. Organización y jerarquía de los grupos de datos (domin
 
 <br>
 
+### Dominio de Información  Común SUI PGN
+Los conceptos de negocio dentro de este dominio compartido por todas los sistemas de información de PGN son:
+
+* Dependencias
+* Entidades
+* Funcionarios 
+* País
+* Departamento
+* Municipio
+* Corregimiento
+* Tipo identificación
+* Personas
+* Regionales
+* Cargos
+* Nivel del cargo
+* Novedad de nombramiento
+* Profesión
+
+<br>
+
 
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
-|**DAT. Conciliación Administrativa**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. Control Interno**|business-object|||
-|**DAT. Estratego**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. Hominis**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. Hominis. Carrera Administrativa**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. Hominis. Hojas Vida**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. Hominis. Planta Personal**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. Hominis. Seguimiento Desempeño**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. Relatoría**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. SIAF**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT. SIM: lappiz**|business-object|||
-|**DAT. SIRI**|business-object|||
+|**DAT. Conciliación Administrativa**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Control Interno**|business-object||*dominio:* lógico<br>|
+|**DAT. Estratego**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Carrera Administrativa**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Hojas Vida**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Planta Personal**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Seguimiento Desempeño**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. PGN (empresarial)**|business-object|Dominio de datos comunes a todas las aplicaciones de PGN. <br>|*dominio:* lógico<br>|
+|**DAT. Relatoría**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. SIAF**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. SIM**|business-object|Dominio de datos particular al sistema de informació SIM de PGN.<br>|*dominio:* lógico<br>|
+|**DAT. SIRI**|business-object||*dominio:* lógico<br>|
+|**Información Empresarial**|grouping|||
+|**Información Misional y Operativa (gral.)**|grouping|||
+|**Información de Negocio (particular)**|grouping|||
 
 <br>
 
@@ -322,17 +350,128 @@ Modelo de información. Organización y jerarquía de los grupos de datos (domin
 ## Migracion.2a.a3. Datos Modelo Físico 
 ![Vista. Migracion.2a.a3. Datos Modelo Físico ](images/Migracion.2a.a3.DatosModeloFísico.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
 
-Los modelos físicos representados en diagramas entidad - relación (ER) de los módulos SUI Migrado, como Hominis, Control Interno, Relatoría, SIRI, serán entregados como documentos aparte, anexos al documento actual en formato reproducible.
+Los modelos físicos representados en diagramas entidad - relación (ER) de los módulos Sistema Único de Información (SUI), como Hominis, Control Interno, Relatoría, SIRI, serán entregados como documentos aparte, anexos al documento actual en formato reproducible.
 
 El formato reproducible en el que entregamos el modelo físico mediante la herramienta libre Draw.io.
-
-![Vista. Migracion.2a.a3. Datos Modelo Físico ](images/ER-SIU.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
 
 
 
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
+
+<br>
+
+## Migracion.2a.a3. Datos Modelo Físico. Dominios
+![Vista. Migracion.2a.a3. Datos Modelo Físico. Dominios](images/Migracion.2a.a3.DatosModeloFísico.Dominios.png){#fig:Migracion.2a.a3.DatosModeloFísico.Dominios width=5.32in}
+
+Los domnios de datos relacionan el modelo lógico con el físico: identifica que tablas pertenecen a qué conceptos de negocio pertenecen, o están más relacionados.
+
+Los dominios de datos ayudan a los procesos de análisis y diseño del desarrollo y mantenimiento de funcionalidades de los sistemas de información del Sistema Único de Información (SUI).
+
+Los dominios de datos principales del Sistema Único de Información (SUI) son:
+
+* SIM. Solicitudes
+* Relatoría. Documentos
+* Hominis - Planta de personal. Ocupación
+* Hominis - Hojas de vida. Experiencia
+* Hominis  - seguimiento al desempeño. Calificación del servicio
+* Hominis - Carrera administrativa. Situación de carrera
+* Hominis - Seguimiento al desempeño. Seguimiento
+* SIRI. Registro de sanciones
+* Control Interno. Plan de auditoría
+
+<br>
+
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+|**DAT. Control Interno**|business-object||*dominio:* lógico<br>|
+|**DAT. Hominis. Carrera Administrativa**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Hojas Vida**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Planta Personal**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Seguimiento Desempeño**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. PGN (empresarial)**|business-object|Dominio de datos comunes a todas las aplicaciones de PGN. <br>|*dominio:* lógico<br>|
+|**DAT. Relatoría**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. SIM**|business-object|Dominio de datos particular al sistema de informació SIM de PGN.<br>|*dominio:* lógico<br>|
+|**DAT. SIRI**|business-object||*dominio:* lógico<br>|
+|**DAT.CATLG.Cargos**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Corregimiento**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Departamento**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Entidades**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Funcionarios **|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Municipio**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Nivel del cargo**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Novedad de nombramiento**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.País**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Personas**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Profesión**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Regionales**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Tipo identificación**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Asignar priorización**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Hallazgos**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Plan anual de auditoria**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Plan auditoria**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Plan de mejoras**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Procesos**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Tipos de procesos**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Unidades auditables**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Cargos**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Funcionarios**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Nivel del cargo**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Novedad de nombramiento**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Situación de carrera administrativa**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Cursos**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Experiencia profesional**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Funcionario**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Idiomas**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Información académica**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Información catedra**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Información de publicaciones**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Programas Snies**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Cargos**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Funcionario**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Novedad de nombramiento**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Ocupación del cargo**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Tipo de novedad**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Calificación de servicio**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Cargo**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Certificados de compromisos**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Funcionarios**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Nivel cargo**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Seguimiento al desempeño**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Descriptores**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Documentos (SIM)**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Fuente**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Grupo de relatoría**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Ponentes**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Relatar documento**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Restrictores**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Dependencia**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Documentos**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Entidades**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Funcionarios**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Personas**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Solicitantes**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Solicitudes**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Tipo de proceso misional**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Autoridad**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Delitos**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Entidad**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Eventos**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Funcionario**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Normas infringidas**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Registro de sanciones**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Sancionado inhabilitado**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Sanciones**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Suspensión**|data-object||*dominio:* físico<br>|
 
 <br>
 
@@ -352,48 +491,48 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**APP5.SIM**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIM.<br>||
-|**DAT. SIM: lappiz**|business-object|||
-|**DAT01.Actividad**|business-object|Actividad del SIM||
-|**DAT01.Actuación**|business-object|Actuación del SIM||
-|**DAT01.Agencia**|business-object|Agencia del SIM||
-|**DAT01.Atención Público**|business-object|||
-|**DAT01.Cargo**|business-object|Cargo del SIM||
-|**DAT01.Casos**|business-object|Casos del SIM||
-|**DAT01.Causa - Relación**|business-object|||
-|**DAT01.Causales**|business-object|Causales del SIM||
-|**DAT01.Citación**|business-object|Citación del SIM||
-|**DAT01.Clasificación**|business-object|Clasificación del SIM||
-|**DAT01.Conciliación**|business-object|Conciliación del SIM||
-|**DAT01.Corregimiento**|business-object|||
-|**DAT01.Demanda**|business-object|Demanda del SIM||
-|**DAT01.Departamento**|business-object|Departamentos del SIM.||
-|**DAT01.Dependencia**|business-object|Dependencia del SIM||
-|**DAT01.Derecho**|business-object|Derecho del SIM||
-|**DAT01.Detalle Actividad**|business-object|||
-|**DAT01.Detalle Entidad**|business-object|||
-|**DAT01.Documento**|business-object|Documento del SIM||
-|**DAT01.Entidad**|business-object|Entidad del SIM||
-|**DAT01.Formatos**|business-object|Formatos del SIM||
-|**DAT01.Funcionario**|business-object|Funcionario del SIM||
-|**DAT01.Grupo de Interés**|business-object|||
-|**DAT01.Instrumento**|business-object|Instrumento del SIM||
-|**DAT01.Interviniente**|business-object|Interviniente del SIM||
-|**DAT01.Municipio**|business-object|Municipio del SIM||
-|**DAT01.Objetivo Estratégico**|business-object|||
-|**DAT01.Observación**|business-object|Observación del SIM||
-|**DAT01.Ocupación**|business-object|Ocupación del SIM||
-|**DAT01.País**|business-object|País del SIM||
-|**DAT01.Persona**|business-object|Personas del SIM.||
-|**DAT01.Plan Ejecución**|business-object|Plan Ejecución del SIM||
-|**DAT01.Población**|business-object|Población del SIM||
-|**DAT01.Prevención**|business-object|Prevención del SIM||
-|**DAT01.Proceso**|business-object|Proceso del SIM||
-|**DAT01.Protocolo**|business-object|Protocolo del SIM||
-|**DAT01.Radicación**|business-object|Radicación del SIM||
-|**DAT01.Recusación**|business-object|Recusación del SIM||
-|**DAT01.Relación Casos**|business-object|Relación casos del SIM||
-|**DAT01.Sector**|business-object|Sector del SIM||
-|**DAT01.Ubicación**|business-object|Ubicación del SIM||
+|**DAT. PGN (empresarial)**|business-object|Dominio de datos comunes a todas las aplicaciones de PGN. <br>|*dominio:* lógico<br>|
+|**DAT01.Actividad**|business-object|Actividad del SIM|*dominio:* negocio<br>|
+|**DAT01.Actuación**|business-object|Actuación del SIM|*dominio:* negocio<br>|
+|**DAT01.Agencia**|business-object|Agencia del SIM|*dominio:* negocio<br>|
+|**DAT01.Atención Público**|business-object||*dominio:* negocio<br>|
+|**DAT01.Cargo**|business-object|Cargo del SIM|*dominio:* negocio<br>|
+|**DAT01.Casos**|business-object|Casos del SIM|*dominio:* negocio<br>|
+|**DAT01.Causa - Relación**|business-object||*dominio:* negocio<br>|
+|**DAT01.Causales**|business-object|Causales del SIM|*dominio:* negocio<br>|
+|**DAT01.Citación**|business-object|Citación del SIM|*dominio:* negocio<br>|
+|**DAT01.Clasificación**|business-object|Clasificación del SIM|*dominio:* negocio<br>|
+|**DAT01.Conciliación**|business-object|Conciliación del SIM|*dominio:* negocio<br>|
+|**DAT01.Corregimiento**|business-object||*dominio:* negocio<br>|
+|**DAT01.Demanda**|business-object|Demanda del SIM|*dominio:* negocio<br>|
+|**DAT01.Departamento**|business-object|Departamentos del SIM.|*dominio:* negocio<br>|
+|**DAT01.Dependencia**|business-object|Dependencia del SIM|*dominio:* negocio<br>|
+|**DAT01.Derecho**|business-object|Derecho del SIM|*dominio:* negocio<br>|
+|**DAT01.Detalle Actividad**|business-object||*dominio:* negocio<br>|
+|**DAT01.Detalle Entidad**|business-object||*dominio:* negocio<br>|
+|**DAT01.Documento**|business-object|Documento del SIM|*dominio:* negocio<br>|
+|**DAT01.Entidad**|business-object|Entidad del SIM|*dominio:* negocio<br>|
+|**DAT01.Formatos**|business-object|Formatos del SIM|*dominio:* negocio<br>|
+|**DAT01.Funcionario**|business-object|Funcionario del SIM|*dominio:* negocio<br>|
+|**DAT01.Grupo de Interés**|business-object||*dominio:* negocio<br>|
+|**DAT01.Instrumento**|business-object|Instrumento del SIM|*dominio:* negocio<br>|
+|**DAT01.Interviniente**|business-object|Interviniente del SIM|*dominio:* negocio<br>|
+|**DAT01.Municipio**|business-object|Municipio del SIM|*dominio:* negocio<br>|
+|**DAT01.Objetivo Estratégico**|business-object||*dominio:* negocio<br>|
+|**DAT01.Observación**|business-object|Observación del SIM|*dominio:* negocio<br>|
+|**DAT01.Ocupación**|business-object|Ocupación del SIM|*dominio:* negocio<br>|
+|**DAT01.País**|business-object|País del SIM|*dominio:* negocio<br>|
+|**DAT01.Persona**|business-object|Personas del SIM.|*dominio:* negocio<br>|
+|**DAT01.Plan Ejecución**|business-object|Plan Ejecución del SIM|*dominio:* negocio<br>|
+|**DAT01.Población**|business-object|Población del SIM|*dominio:* negocio<br>|
+|**DAT01.Prevención**|business-object|Prevención del SIM|*dominio:* negocio<br>|
+|**DAT01.Proceso**|business-object|Proceso del SIM|*dominio:* negocio<br>|
+|**DAT01.Protocolo**|business-object|Protocolo del SIM|*dominio:* negocio<br>|
+|**DAT01.Radicación**|business-object|Radicación del SIM|*dominio:* negocio<br>|
+|**DAT01.Recusación**|business-object|Recusación del SIM|*dominio:* negocio<br>|
+|**DAT01.Relación Casos**|business-object|Relación casos del SIM|*dominio:* negocio<br>|
+|**DAT01.Sector**|business-object|Sector del SIM|*dominio:* negocio<br>|
+|**DAT01.Ubicación**|business-object|Ubicación del SIM|*dominio:* negocio<br>|
 
 <br>
 
@@ -409,26 +548,26 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**APP4.Hominis**|application-component|Módulo del SUI. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
-|**DAT. Hominis**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>||
-|**DAT.Cargo**|business-object|||
-|**DAT.Código Actuación**|business-object|||
-|**DAT.Código Jurisdicción**|business-object|||
-|**DAT.Código Regional**|business-object|||
-|**DAT.Código SNIES**|business-object|||
-|**DAT.Código dependencia superior**|business-object|||
-|**DAT.Código regional**|business-object|||
-|**DAT.Decreto de la creación**|business-object|||
-|**DAT.Diciplina Area**|business-object|||
-|**DAT.Encargo del cargo**|business-object|||
-|**DAT.Ley vigente**|business-object|||
-|**DAT.Materia**|business-object|||
-|**DAT.Nivel**|business-object|||
-|**DAT.Nombre Actuación**|business-object|||
-|**DAT.Nombre Jurisdicción**|business-object|||
-|**DAT.Nombre Regional**|business-object|||
-|**DAT.Nombre dependencia superior**|business-object|||
-|**DAT.Tipo de inscripcion**|business-object|||
-|**DAT.Vinculación**|business-object|||
+|**DAT. Hominis**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT.Cargo**|business-object||*dominio:* lógico<br>|
+|**DAT.Código Actuación**|business-object||*dominio:* lógico<br>|
+|**DAT.Código Jurisdicción**|business-object||*dominio:* lógico<br>|
+|**DAT.Código Regional**|business-object||*dominio:* lógico<br>|
+|**DAT.Código SNIES**|business-object||*dominio:* lógico<br>|
+|**DAT.Código dependencia superior**|business-object||*dominio:* lógico<br>|
+|**DAT.Código regional**|business-object||*dominio:* lógico<br>|
+|**DAT.Decreto de la creación**|business-object||*dominio:* lógico<br>|
+|**DAT.Diciplina Area**|business-object||*dominio:* lógico<br>|
+|**DAT.Encargo del cargo**|business-object||*dominio:* lógico<br>|
+|**DAT.Ley vigente**|business-object||*dominio:* lógico<br>|
+|**DAT.Materia**|business-object||*dominio:* lógico<br>|
+|**DAT.Nivel**|business-object||*dominio:* lógico<br>|
+|**DAT.Nombre Actuación**|business-object||*dominio:* lógico<br>|
+|**DAT.Nombre Jurisdicción**|business-object||*dominio:* lógico<br>|
+|**DAT.Nombre Regional**|business-object||*dominio:* lógico<br>|
+|**DAT.Nombre dependencia superior**|business-object||*dominio:* lógico<br>|
+|**DAT.Tipo de inscripcion**|business-object||*dominio:* lógico<br>|
+|**DAT.Vinculación**|business-object||*dominio:* lógico<br>|
 
 <br>
 
@@ -444,10 +583,10 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**APP3.Control interno**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: Control Interno.<br>||
-|**DAT.Dependencia**|business-object|||
-|**DAT.Funcionario**|business-object|||
-|**DAT.Proceso**|business-object|||
-|**DAT.Tipo de proceso**|business-object|||
+|**DAT.Dependencia**|business-object||*dominio:* lógico<br>|
+|**DAT.Funcionario**|business-object||*dominio:* lógico<br>|
+|**DAT.Proceso**|business-object||*dominio:* lógico<br>|
+|**DAT.Tipo de proceso**|business-object||*dominio:* lógico<br>|
 
 <br>
 
@@ -463,7 +602,7 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**APP2.SIRI**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIRI.<br>||
-|**DAT.Entidad**|business-object|||
+|**DAT.Entidad**|business-object||*dominio:* lógico<br>|
 
 <br>
 
@@ -472,14 +611,11 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 
 # Documento Diccionarios de Datos
 ## Migracion.2a.a2. Datos Diccionario
-![Vista. Migracion.2a.a2. Datos Diccionario](images/Migracion.2a.a2.DatosDiccionario.png){#fig:Migracion.2a.a2.DatosDiccionario width=5.32in}
+![Vista. Migracion.2a.a2. Datos Diccionario](images/Migracion.2a.a2.DatosDiccionario.png){#fig:Migracion.2a.a2.DatosDiccionario width=}
 
 Los diccionarios de datos explicativos de los modelos de datos físicos de los módulos del SUI Migrado, representados en tablas campo-descripción, serán entregados como documentos anexos aparte del documento de arquitectura de datos actual, y en formato reproducible.
 
 El formato reproducible en el que entregamos los diccionarios de datos del modelo físico es DOCX.
-
-![Migracion.2a.a2. Datos Diccionario ](images/PGNSIMdiccionario.png){#fig:Migracion.2a.a3.DatosModeloFísico width=}
-
 
 
 ### Catálogo de Elementos
@@ -513,10 +649,10 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 |**APP4.Hominis**|application-component|Módulo del SUI. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
 |**APP6.Estratego**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: Estratego.<br>||
 |**Interacción SUI - SIM**|application-interaction|Interacción de API SUI con API SIM para el transporte de entidades de negocio. Los tipos de datos que utilizan esta interacción entre aplicaciones son los datos externos al módulo central SUI que los requiera, los datos históricos que están por fuera del móduo SUI migrado, y los datos transaccionales de otros módulos SUI migrados.<br>||
-|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al Sistema Único de Información (SUI).<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al Sistema Único de Información (SUI) de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Interfaz de Almacenaniento**|application-interface|Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del SUI.<br>||
 |**Procesamiento de lotes PGN**|application-process|Los procesos de lotes, que requieren volumenes de datos altos, deben hacer parte de la arquitectura de datos del SUI.<br>||
-|**API Externa (flujo de datos)**|application-service|El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**API Externa (flujo de datos)**|application-service|El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al Sistema Único de Información (SUI) de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Datos externos**|data-object|||
 |**Datos históricos**|data-object|||
 |**Datos transaccionales SUI**|data-object|||
@@ -542,7 +678,7 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 |**cc:PGN SUI (módulo central)**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
 |**APP5.SIM**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIM.<br>||
 |**Interacción SUI - SIM**|application-interaction|Interacción de API SUI con API SIM para el transporte de entidades de negocio. Los tipos de datos que utilizan esta interacción entre aplicaciones son los datos externos al módulo central SUI que los requiera, los datos históricos que están por fuera del móduo SUI migrado, y los datos transaccionales de otros módulos SUI migrados.<br>||
-|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al Sistema Único de Información (SUI).<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al Sistema Único de Información (SUI) de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Interfaz de Almacenaniento**|application-interface|Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del SUI.<br>||
 |**Datos externos**|data-object|||
 |**Datos históricos**|data-object|||
@@ -565,8 +701,8 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 |:--------|:--------|:--------|:--------|
 |**cc:PGN SUI (módulo central)**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
 |**cc:PGN SUI (módulo central) 2**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
-|**Interfaz de Acceso Proveedores 2**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al SUI Migrado de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al Sistema Único de Información (SUI).<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al Sistema Único de Información (SUI) de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**Interfaz de Acceso Proveedores 2**|application-interface|Interfaz de acceso a los tipos de datos externos al Sistema Único de Información (SUI).<br>El patrón de API Externa (reverse proxie) tiene el rol de unir y referir a los datos externos e históricos al Sistema Único de Información (SUI) de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Interfaz de Almacenaniento**|application-interface|Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del SUI.<br>||
 |**Datos transaccionales SUI**|data-object|||
 |**Datos transaccionales módulo SUI**|data-object|Registros de trabajo de un módulo SUI Migrado, 2023.<br>||
@@ -580,588 +716,183 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 ## Migracion.2a.a34 Datos Ontológico
 ![Vista. Migracion.2a.a34 Datos Ontológico](images/Migracion.2a.a34DatosOntológico.png){#fig:Migracion.2a.a34DatosOntológico width=5.32in}
 
-En construcción.
+El modelo semántico del Sistema Único de Información (SUI) relaciona tres grupos de conceptos (clases, en el lenguaje de ontologías computables, RDF): los conceptos físicos, los lógicos y los de negocio, estos últimos provenientes del modelo de información.
+
+El resultado del modelo ontológico, como está, versión 0.1, permite realizar inferencias del tipo 'esto es X, debido a Y', respecto de las clases de los tres dominios mencionados: tecnológico, lógico y negocio. Las infrencias son equivalentes a las consultas a un modelo de datos, para utilizarlas en análisis posteriores.
+
+Ejemplo de inferencias del modelo ontológico del Sistema Único de Información (SUI)
+
+1. ejemplo 1
+1. ejemplo 1
+1. ejemplo 1
+
+<br>
+
 
 
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
+|**DAT. Conciliación Administrativa**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Control Interno**|business-object||*dominio:* lógico<br>|
+|**DAT. Estratego**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Carrera Administrativa**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Hojas Vida**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Planta Personal**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. Hominis. Seguimiento Desempeño**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. PGN (empresarial)**|business-object|Dominio de datos comunes a todas las aplicaciones de PGN. <br>|*dominio:* lógico<br>|
+|**DAT. Relatoría**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. SIAF**|business-object|Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br>|*dominio:* lógico<br>|
+|**DAT. SIRI**|business-object||*dominio:* lógico<br>|
+|**DAT.Cargo**|business-object||*dominio:* lógico<br>|
+|**DAT.Código Actuación**|business-object||*dominio:* lógico<br>|
+|**DAT.Código Jurisdicción**|business-object||*dominio:* lógico<br>|
+|**DAT.Código Regional**|business-object||*dominio:* lógico<br>|
+|**DAT.Código SNIES**|business-object||*dominio:* lógico<br>|
+|**DAT.Código dependencia superior**|business-object||*dominio:* lógico<br>|
+|**DAT.Código regional**|business-object||*dominio:* lógico<br>|
+|**DAT.Decreto de la creación**|business-object||*dominio:* lógico<br>|
+|**DAT.Dependencia**|business-object||*dominio:* lógico<br>|
+|**DAT.Diciplina Area**|business-object||*dominio:* lógico<br>|
+|**DAT.Encargo del cargo**|business-object||*dominio:* lógico<br>|
+|**DAT.Entidad**|business-object||*dominio:* lógico<br>|
+|**DAT.Funcionario**|business-object||*dominio:* lógico<br>|
+|**DAT.Ley vigente**|business-object||*dominio:* lógico<br>|
+|**DAT.Materia**|business-object||*dominio:* lógico<br>|
+|**DAT.Nivel**|business-object||*dominio:* lógico<br>|
+|**DAT.Nombre Actuación**|business-object||*dominio:* lógico<br>|
+|**DAT.Nombre Jurisdicción**|business-object||*dominio:* lógico<br>|
+|**DAT.Nombre Regional**|business-object||*dominio:* lógico<br>|
+|**DAT.Nombre dependencia superior**|business-object||*dominio:* lógico<br>|
+|**DAT.Proceso**|business-object||*dominio:* lógico<br>|
+|**DAT.Tipo de inscripcion**|business-object||*dominio:* lógico<br>|
+|**DAT.Tipo de proceso**|business-object||*dominio:* lógico<br>|
+|**DAT.Vinculación**|business-object||*dominio:* lógico<br>|
+|**DAT01.Actividad**|business-object|Actividad del SIM|*dominio:* negocio<br>|
+|**DAT01.Actuación**|business-object|Actuación del SIM|*dominio:* negocio<br>|
+|**DAT01.Agencia**|business-object|Agencia del SIM|*dominio:* negocio<br>|
+|**DAT01.Atención Público**|business-object||*dominio:* negocio<br>|
+|**DAT01.Cargo**|business-object|Cargo del SIM|*dominio:* negocio<br>|
+|**DAT01.Casos**|business-object|Casos del SIM|*dominio:* negocio<br>|
+|**DAT01.Causa - Relación**|business-object||*dominio:* negocio<br>|
+|**DAT01.Causales**|business-object|Causales del SIM|*dominio:* negocio<br>|
+|**DAT01.Citación**|business-object|Citación del SIM|*dominio:* negocio<br>|
+|**DAT01.Clasificación**|business-object|Clasificación del SIM|*dominio:* negocio<br>|
+|**DAT01.Conciliación**|business-object|Conciliación del SIM|*dominio:* negocio<br>|
+|**DAT01.Corregimiento**|business-object||*dominio:* negocio<br>|
+|**DAT01.Demanda**|business-object|Demanda del SIM|*dominio:* negocio<br>|
+|**DAT01.Departamento**|business-object|Departamentos del SIM.|*dominio:* negocio<br>|
+|**DAT01.Dependencia**|business-object|Dependencia del SIM|*dominio:* negocio<br>|
+|**DAT01.Derecho**|business-object|Derecho del SIM|*dominio:* negocio<br>|
+|**DAT01.Detalle Actividad**|business-object||*dominio:* negocio<br>|
+|**DAT01.Detalle Entidad**|business-object||*dominio:* negocio<br>|
+|**DAT01.Documento**|business-object|Documento del SIM|*dominio:* negocio<br>|
+|**DAT01.Entidad**|business-object|Entidad del SIM|*dominio:* negocio<br>|
+|**DAT01.Formatos**|business-object|Formatos del SIM|*dominio:* negocio<br>|
+|**DAT01.Funcionario**|business-object|Funcionario del SIM|*dominio:* negocio<br>|
+|**DAT01.Grupo de Interés**|business-object||*dominio:* negocio<br>|
+|**DAT01.Instrumento**|business-object|Instrumento del SIM|*dominio:* negocio<br>|
+|**DAT01.Interviniente**|business-object|Interviniente del SIM|*dominio:* negocio<br>|
+|**DAT01.Municipio**|business-object|Municipio del SIM|*dominio:* negocio<br>|
+|**DAT01.Objetivo Estratégico**|business-object||*dominio:* negocio<br>|
+|**DAT01.Observación**|business-object|Observación del SIM|*dominio:* negocio<br>|
+|**DAT01.Ocupación**|business-object|Ocupación del SIM|*dominio:* negocio<br>|
+|**DAT01.País**|business-object|País del SIM|*dominio:* negocio<br>|
+|**DAT01.Persona**|business-object|Personas del SIM.|*dominio:* negocio<br>|
+|**DAT01.Plan Ejecución**|business-object|Plan Ejecución del SIM|*dominio:* negocio<br>|
+|**DAT01.Población**|business-object|Población del SIM|*dominio:* negocio<br>|
+|**DAT01.Prevención**|business-object|Prevención del SIM|*dominio:* negocio<br>|
+|**DAT01.Proceso**|business-object|Proceso del SIM|*dominio:* negocio<br>|
+|**DAT01.Protocolo**|business-object|Protocolo del SIM|*dominio:* negocio<br>|
+|**DAT01.Radicación**|business-object|Radicación del SIM|*dominio:* negocio<br>|
+|**DAT01.Recusación**|business-object|Recusación del SIM|*dominio:* negocio<br>|
+|**DAT01.Relación Casos**|business-object|Relación casos del SIM|*dominio:* negocio<br>|
+|**DAT01.Sector**|business-object|Sector del SIM|*dominio:* negocio<br>|
+|**DAT01.Ubicación**|business-object|Ubicación del SIM|*dominio:* negocio<br>|
+|**DAT.CATLG.Cargos**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Corregimiento**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Departamento**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Entidades**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Funcionarios **|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Municipio**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Nivel del cargo**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Novedad de nombramiento**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.País**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Personas**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Profesión**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Regionales**|data-object||*dominio:* físico<br>|
+|**DAT.CATLG.Tipo identificación**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Actividades**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Asignar priorización**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Funcionarios**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Hallazgos**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Plan anual de auditoria**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Plan auditoria**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Plan de mejoras**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Procesos**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Tipos de procesos**|data-object||*dominio:* físico<br>|
+|**DAT.CTRL.Unidades auditables**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Cargos**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Funcionarios**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Nivel del cargo**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Novedad de nombramiento**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.CARR.Situación de carrera administrativa**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Cursos**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Experiencia profesional**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Funcionario**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Idiomas**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Información académica**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Información catedra**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Información de publicaciones**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.HV.Programas Snies**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Cargos**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Funcionario**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Novedad de nombramiento**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Ocupación del cargo**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.PLPRS.Tipo de novedad**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Calificación de servicio**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Cargo**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Certificados de compromisos**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Dependencias**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Funcionarios**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Nivel cargo**|data-object||*dominio:* físico<br>|
+|**DAT.HOM.SEG.Seguimiento al desempeño**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Descriptores**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Documentos (SIM)**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Fuente**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Grupo de relatoría**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Ponentes**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Relatar documento**|data-object||*dominio:* físico<br>|
+|**DAT.RELT.Restrictores**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Actividad**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Dependencia**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Documentos**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Entidades**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Funcionarios**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Personas**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Solicitantes**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Solicitudes**|data-object||*dominio:* físico<br>|
+|**DAT.SIM.Tipo de proceso misional**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Autoridad**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Delitos**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Entidad**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Eventos**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Funcionario**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Normas infringidas**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Registro de sanciones**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Sancionado inhabilitado**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Sanciones**|data-object||*dominio:* físico<br>|
+|**DAT.SIRI.Suspensión**|data-object||*dominio:* físico<br>|
 
 <br>
 
 
-# Arquitectura de Software: Infraestructura
-* [Diagrama de Infraestructura de TI](#diagrama-de-infraestructura-de-ti)
-	* [Migracion.3. Infraestructura](#migracion.3.-infraestructura)
-	* [Lineabase.1a.SUI Componentes. Infraestrcutura](#lineabase.1a.sui-componentes.-infraestrcutura)
-	* [Lineabase.0.SUI Aplicación. Física](#lineabase.0.sui-aplicación.-física)
-	* [Seguridad.2. Lineabase.0.SUI Aplicación](#seguridad.2.-lineabase.0.sui-aplicación)
-	* [Migracion.6. Migración de datos](#migracion.6.-migración-de-datos)
-* [Documento sobre especificaciones técnicas de infraestructura TI](#documento-sobre-especificaciones-técnicas-de-infraestructura-ti)
-	* [Lineabase.0.SUI Aplicación. Física](#lineabase.0.sui-aplicación.-física)
-
-
-<div style="page-break-before: always;"></div>
-\newpage
-
-# Diagrama de Infraestructura de TI
-## Migracion.3. Infraestructura
-![Vista. Migracion.3. Infraestructura](images/Migracion.3.Infraestructura.png){#fig:Migracion.3.Infraestructura width=}
-
-Identificación de los ítems de infraestructura tecnológica, nodos, redes, cómputo, y almacenamiento relacionado con los módulos del SUI Migrado, 2023.
-
-### Representación de Infraestructura
-
-1. Canales
-1. Redes
-1. Grupo de Servidores
-1. Grupo de Servicios
-1. Integración
-1. Seguridad
-1. Almacenamiento
-1. Comunicación / Ruteo
-
-<br>
-
-### Especificaciones Plataformas y Versiones
-* Angular, versión 11
-* Node Js, versión 14.16
-* Net Entity Framework, versión 4.7
-* Sequelize, versión 5.3
-
-<br>
-
-### Especificaciones de Librerías y Dependencias
-
-* Web Server (IIS) role
-* Windows Process Activation Service feature
-* Microsoft .NET Framework version 3.5
-* Microsoft .NET Framework version 4.7.2
-* Microsoft SQL Server 2012 Service Pack 4 Native Client
-* Microsoft WCF Data Services 5.6
-* Microsoft Identity Extensions
-* Microsoft Information Protection and Control Client 2.1 (MSIPC)
-* Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
-* Visual C++ Redistributable Package for Visual Studio 2012
-* Visual C++ Redistributable Package for Visual Studio 2017
-
-<br>
-
-### Especificaciones Base de Servidores
-
-| Servidor de Aplicaciones | Especificaciones del Servidor            |
-|-------------------|-------------------------------------------------|
-| Sistema Operativo | Windows Server 2019 Standard or Datacenter x64  |
-| RAM               | 16 GB                                            |
-| CPU               | 64 Bits, mínimo 4 Cores > 2 Ghz                 |
-| Discos            | C: 120 GB, D: 16 GB    |    
-| Físico/virtual    | Virtual                                         |
-| Roles / Features  | Web Server (IIS) role                           |
-|                   | Windows Process Activation Service feature      |
-|                   | Microsoft .NET Framework version 3.5            |
-
-<br>
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**APP1.Relatoría**|application-component|Módulo del SUI. Relatoría pública. Publicación de información de referencia para funcionarios y personas naturales, cientes de la PGN.<br> ||
-|**APP1.Relatoría**|application-component|Módulo del SUI. Relatoría pública. Publicación de información de referencia para funcionarios y personas naturales, cientes de la PGN.<br> ||
-|**APP2.SIRI**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIRI.<br>||
-|**APP2.SIRI**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIRI.<br>||
-|**APP3.Control interno**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: Control Interno.<br>||
-|**APP3.Control interno**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: Control Interno.<br>||
-|**APP4.Hominis**|application-component|Módulo del SUI. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
-|**APP4.Hominis**|application-component|Módulo del SUI. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
-|**APP5.SIM**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIM.<br>||
-|**APP5.SIM**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: SIM.<br>||
-|**APP6.Estratego**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: Estratego.<br>||
-|**APP6.Estratego**|application-component|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN: Estratego.<br>||
-|**App Movíl**|application-component|||
-|**App PGN Móvil**|application-component|||
-|**App PGN Móvil**|application-component|||
-|**App PGN Web**|application-component|||
-|**App PGN Web**|application-component|||
-|**Cola ppal**|application-component|||
-|**Cola reintento**|application-component|||
-|**Portal Funcionarios**|application-component|||
-|**Portal Personas**|application-component|||
-|**Portales**|application-component|||
-|**Reverse Proxy**|application-component|||
-|**Reverse Proxy**|application-component|||
-|**Reverse Proxy**|application-component|||
-|**Service Control Plane**|application-component|||
-|**Https**|application-interface|||
-|**Https**|application-interface|||
-|**gRPC**|application-interface|||
-|**gRPC**|application-interface|||
-|**API Consumer**|business-actor|||
-|**API Providers**|business-actor|||
-|**Communication Network (DMZ)**|communication-network|||
-|**Communication Network (LAN)**|communication-network|||
-|**Communication Network (internet)**|communication-network|||
-|**Private virtual network API Management**|communication-network|||
-|**Private virtual network Kubernates**|communication-network|||
-|**Mobile**|device|||
-|**PC/Laptop**|device|||
-|**Regionales**|device|||
-|** Database por módulo - CQRS**|grouping|||
-|**Canales**|grouping|||
-|**Comunicación y Ruteo**|grouping|||
-|**Control Plane**|grouping|||
-|**Control transaccional**|grouping|||
-|**Data Plane**|grouping|||
-|**Data Plane**|grouping|||
-|**Grupo Service 1**|grouping|||
-|**Grupo Service 2**|grouping|||
-|**Integración**|grouping|||
-|**Management Plane **|grouping|||
-|**Managemnet Plane**|grouping|||
-|**Monitoreo y Métricas consumo**|grouping|||
-|**SUI - Arquitectura Tecnologías (infraestructura)**|grouping|||
-|**Seguridad / Protección**|grouping|||
-|**Servidores**|grouping|||
-|**Dependencias**|location|||
-|**SUI Migración. Procuraduría General de la Nación. 2023**|location|||
-|**Bastion Host Management**|node|||
-|**Private Endpoint per microservices**|path|||
-|**Vnet Bastion**|path|||
-|**APP1.Relatoría**|system-software|||
-|**APP1.Relatoría**|system-software|||
-|**APP2.SIRI**|system-software|||
-|**APP2.SIRI**|system-software|||
-|**APP3.Control interno**|system-software|||
-|**APP3.Control interno**|system-software|||
-|**APP4.Hominis**|system-software|||
-|**APP4.Hominis**|system-software|||
-|**APP5.SIM**|system-software|||
-|**APP5.SIM**|system-software|||
-|**APP6.Estratego**|system-software|||
-|**APP6.Estratego**|system-software|||
-|**App PGN Móvil**|system-software|||
-|**App PGN Móvil**|system-software|||
-|**App PGN Web**|system-software|||
-|**App PGN Web**|system-software|||
-|**Management Bastion**|system-software|||
-|**Internal load balanced**|technology-function|||
-|**Message broker**|technology-function|||
-|**Topic**|technology-function|||
-|**www pgn com**|technology-interface|||
-|** Event Hubs**|technology-service|||
-|** Event Hubs**|technology-service|||
-|**API Gateway**|technology-service|||
-|**API Management**|technology-service|||
-|**API Management Service**|technology-service|||
-|**Active Directory**|technology-service|||
-|**Application Monitor**|technology-service|||
-|**Event Grid**|technology-service|||
-|**Infrastructure Monitor**|technology-service|||
-|**Kay vault**|technology-service|||
-|**Network Security Group**|technology-service|||
-|**Platform Monitor**|technology-service|||
-|**SQL instance config data  **|technology-service|||
-|**SQL instance operational data **|technology-service|||
-|**Servidores**|technology-service|||
-|**Servidores central**|technology-service|||
-
-<br>
-
-## Lineabase.1a.SUI Componentes. Infraestrcutura
-![Vista. Lineabase.1a.SUI Componentes. Infraestrcutura](images/Lineabase.1a.SUIComponentes.Infraestrcutura.png){#fig:Lineabase.1a.SUIComponentes.Infraestrcutura width=}
-
-Relación de dependencias de infraestructura con los servicios que integran el modelo de aplicación de SUI Migrado, 2023.
-
-### Elementos de Infraestructura SUI Migrado
-
-* Servidor de Canales (App PGN web y móvil)
-* Servidor Web App (App SUI)
-* Servidor Lappiz (Config SUI)
-* Servidor BDD App (Transaccional)
-* Servidor BDD Config (Configuración)
-
-<br>
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Persistencia**|application-collaboration|||
-|**App**|application-component||*plataforma:* node Js<br>*brecha:* 100<br>|
-|**App PGN Móvil**|application-component|<br>|*plantilla:* element-md-bold<br>*brecha:* 100<br>|
-|**App PGN Web**|application-component||*plataforma:* angular 11<br>*brecha:* 100<br>|
-|**Config**|application-component||*plataforma:* cs<br>|
-|**Controlador admin**|application-component||*plataforma:* cs<br>|
-|**Controlador frontal mvl**|application-component||*plataforma:* js<br>|
-|**Controlador frontal web**|application-component|-	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. <br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. <br>|*plataforma:* js<br>|
-|**Controlador funcional**|application-component||*plataforma:* js<br>|
-|**Modelo (neg)**|application-component||*plataforma:* cs<br>|
-|**Puerto datos 1**|application-component||*plataforma:* js<br>|
-|**Puerto datos 2**|application-component||*plataforma:* cs<br>|
-|**Seguridad**|application-component||*plataforma:* sql<br>*brecha:* 100<br>|
-|**Transacciones**|application-component||*plataforma:* sql<br>*brecha:* 100<br>|
-|**Utilitario**|application-component||*plataforma:* no-sql<br>|
-|**Vista móvil**|application-component||*plataforma:* js<br>|
-|**Vista web**|application-component||*plataforma:* html<br>|
-|**Interfaz de aplicación (runtime)**|application-interface|Servidor web:  Microsoft-IIS/10.0 <br>Marco de Programación: ASP.NET<br>Huellas digitales identificadas:  <br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”<br>|*plataforma:* angular 11<br>|
-|**API externas**|application-service|||
-|**Application Service (NLB)**|application-service||*plataforma:* angular 11<br>*brecha:* 100<br>|
-|**Archivos Compartidos**|application-service|||
-|**CDN Contenidos**|application-service||*brecha:* 100<br>|
-|**Doku (gest. doc.)**|application-service||*brecha:* 100<br>|
-|**Identidades**|application-service|||
-|**Interfaz de datos 1**|application-service|||
-|**Interfaz de datos 2**|application-service|||
-|**Interfaz de datos 3**|application-service|||
-|**Proveedores contenidos**|application-service||*brecha:* 100<br>|
-|**Mensaje: JSON**|data-object|||
-|**Infraestructura SUI**|grouping|Soporte de infraestructura a los componentes del SUI Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del SUI de PGN.<br>||
-|**PGN SUI**|grouping|Esta vista presenta y describe los ítems de arquitectura del SUI Migrado que requieren licenciamiento para operar y cumplir con el objetivo principal de la migración que es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados.<br>Los elementos realtados en verde en el diagrama incurren en una renta, bien sea, o por consumo de cómputo en la nube de Microsoft, o por el costo de una licencia de uso. Por ejemplo, en el caso del servidor de reporte del SUI Migrado, es requerida una licencia de uso Power BI Pro, de pago mensual.<br>||
-|**Servidor BDD App**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
-|**Servidor BDD Config**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br>||
-|**Servidor Web App**|node|Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM 8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos SO C: 126 GB. SO D: 16 GB.<br>||
-|**Servidor Web Canales**|node|Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br>||
-|**Sistema de Seguridad (LDAP) Control de acceso**|node|Sistema de autenticación del directorio activo.||
-
-<br>
-
-## Lineabase.0.SUI Aplicación. Física
-![Vista. Lineabase.0.SUI Aplicación. Física](images/Lineabase.0.SUIAplicación.Física.png){#fig:Lineabase.0.SUIAplicación.Física width=}
-
-Procuraduría General de la Nación (PGN), módulo Sistema Único de Información (SUI), 2023. Elementos físicos que soportan a la aplicación doc Sistema Único de Información (SUI) de la PGN, actual Fase I y existente en Fase II. Presentación de componentes de software y tecnología física (hardware) implementados en la Fase I y requeridos por Fase II (presente proyecto).
-
-### Representación de Arquitectura
-Con una arquitectura orientada a servicios Sistema Único de Información (SUI) recopila:
-
-1. Runtime: Es el servicio que interactúa con el usuario final (GUI) elaborado en Angular 11
-1. API Tx: Servicio API REST Base Node encargado de realizar las transacciones básicas CRUD
-1. API Config / Seguridad. Servicio Web API .Net Framework encargado de gestionar características con la autenticación y configuración
-
-<br>
-
-### Especificaciones Plataformas y Versiones
-* Angular, versión 11
-* Node Js, versión 14.16
-* Net Entity Framework, versión 4.7
-* Sequelize, versión 5.3
-
-<br>
-
-### Especificaciones de Librerías y Dependencias
-* Web Server (IIS) role
-* Windows Process Activation Service feature
-* Microsoft .NET Framework version 3.5
-* Microsoft .NET Framework version 4.7.2
-* Microsoft SQL Server 2012 Service Pack 4 Native Client
-* Microsoft WCF Data Services 5.6
-* Microsoft Identity Extensions
-* Microsoft Information Protection and Control Client 2.1 (MSIPC)
-* Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
-* Visual C++ Redistributable Package for Visual Studio 2012
-* Visual C++ Redistributable Package for Visual Studio 2017
-
-<br>
-
-### Especificaciones Base de Servidores
-
-| Servidor de Aplicaciones | Especificaciones del Servidor            |
-|-------------------|-------------------------------------------------|
-| Sistema Operativo | Windows Server 2019 Standard or Datacenter x64  |
-| RAM               | 16 GB                                            |
-| CPU               | 64 Bits, mínimo 4 Cores > 2 Ghz                 |
-| Discos            | C: 120 GB, D: 16 GB    |    
-| Físico/virtual    | Virtual                                         |
-| Roles / Features  | Web Server (IIS) role                           |
-|                   | Windows Process Activation Service feature      |
-|                   | Microsoft .NET Framework version 3.5            |
-
-<br>
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Application Collaboration**|application-collaboration|||
-|**Application Collaboration**|application-collaboration|||
-|**App**|application-component||*plataforma:* node Js<br>*brecha:* 100<br>|
-|**App PGN Móvil**|application-component|<br>|*plantilla:* element-md-bold<br>*brecha:* 100<br>|
-|**App PGN Web**|application-component||*plataforma:* angular 11<br>*brecha:* 100<br>|
-|**Config**|application-component||*plataforma:* cs<br>|
-|**Punto acceso público**|application-interface|URL tipo C<br>HTTP||
-|**Application Service (NLB)**|application-service||*plataforma:* angular 11<br>*brecha:* 100<br>|
-|**Interfaz de datos 1**|application-service|||
-|**Interfaz de datos 2**|application-service|||
-|**Communication Network (DMZ)**|communication-network|||
-|**Communication Network (LAN)**|communication-network|||
-|**Communication Network (internet)**|communication-network|||
-|**Balanceador**|node|||
-|**Servidor BDD App**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
-|**Servidor BDD Config**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br>||
-|**Servidor Web App**|node|Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM 8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos SO C: 126 GB. SO D: 16 GB.<br>||
-|**Servidor Web Canales**|node|Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br>||
-|**www pgn com**|technology-interface|||
-
-<br>
-
-## Seguridad.2. Lineabase.0.SUI Aplicación
-![Vista. Seguridad.2. Lineabase.0.SUI Aplicación](images/Seguridad.2.Lineabase.0.SUIAplicación.png){#fig:Seguridad.2.Lineabase.0.SUIAplicación width=}
-
-## Metodología Seguridad Sistema Único de Información (SUI)
-Los mecanismos de autorización para el acceso a los sistemas de información de la Procuraduría General de la Nación describen la forma de cómo se restringe el acceso a los diferentes módulos Misionales (SIM), Registros de Inhabilidades (SIRI), Nómina, Control Interno y relatoría, entre otros, y que se considera un mecanismo de protección que ayuda a reaccionar ante cualquier operación no autorizada. 
-
-El control de acceso basado en roles (RBAC), enfoca la idea de que a los funcionarios se les otorgue los permisos de acceso a los recursos, basados en los roles y/o perfiles que este posee. Este control posee dos características fundamentales: i) los accesos son controlados por medio de los roles y/o perfiles asignados, quiere decir, a los servidores públicos, contratistas, terceros y otros colaboradores autorizados para interactuar con los sistemas de información se le asignan los roles y el encargado/responsable definirá los permisos, que a su vez están relacionados con los roles, ii) Los roles pueden ser definidos a nivel jerárquico, es decir que un rol podrá ser miembro de otro rol.  
-
-Un proceso de autorización basado en roles, identifica tres factores importantes, i) Todos los servidores públicos, contratistas, terceros y otros Colaboradores, deben tener un rol asignado, si no es asignado no podrá realizar ninguna acción relacionada con el acceso, ii) un usuario podrá hacer uso de los permisos asociados a los roles asignados, el cual deberá realizar el inicio de sesión el usuario asignado del Directorio activo (DA), iii) los servidores públicos, contratistas, terceros y otros, solo podrán realizar acciones para las cuales han sido autorizados por medio de la activación de sus roles y/o perfiles.  
-
-EL control definido para los accesos basados en roles RBAC, permitirá que solo las personas autorizadas de la PGN podrán acceder a ciertos recursos (programas, equipos, aplicaciones, bases de datos, etc.) definido por sus funciones laborales, lo que permitirá controlar los accesos desde diferentes escenarios: Sistemas de información, redes y aplicaciones. 
-
-### Gestión de identidades y Control de acceso
-Gestor de identidades: En esta gestión se planifica el ciclo de vida de las identidades de usuario y se realizan los procesos de sincronización, de acuerdo a los suministros de accesos establecidos por la entidad, los cuales son integrados con el servidor que gestiona la identidad y control de acceso.  
-
-Gestor de roles: La asignación de roles es sincronizada con la identidad de usuario en el servidor de dominio. Para esta gestión se crean las reglas y condiciones que determinan si un usuario puede o no pertenecer a un rol definido por la entidad. 
-
-Para el gobierno y gestión de identidades y de acceso, se identificó como primera medida la implementación de la siguiente metodología. 
-
-### Reglas de Creación de Usuarios e Identifiación de Privilegios
-En este ítem se deben identificar las herramientas con las que cuenta la  entidad, las cuales deberán ser registradas en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_1 (Mecanismos)”. 
-Identificación de Roles y Privilegios. 
-
-Este ítem proporciona al sistema la definición de las políticas organizacionales en cuanto a la definición de los privilegios y roles de los diferentes actores en cada uno de los aplicativos con los que estos interactúan dentro de sus funciones, registradas en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_2 (Roles)”. 
-
-### Aprovisionamiento de Cuentas
-Este ítem establece el proceso adecuado para el aprovisionamiento y des aprovisionamiento de cuentas de usuarios en las diferentes aplicaciones, permitiendo toda la gestión de ellas por medio de un sistema de directorio único y centralizado, Este aprovisionamiento se encuentra registrado en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_4 y Hoja_5 (Permisos)”.
-
-### Mecanismos de Control de Acceso
-Este ítem controla que usuarios tienen permitido el acceso a los diferentes aplicativos o herramientas dentro de la organización permitiendo segregar las funciones dependiendo del rol del usuario en cada sistema, Este establecimiento se encuentra registrado en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_3 (Acceso)”. 
-
-### Definición de Privilegios y Accesos
-Los accesos y privilegios serán identificados en la matriz, encargado identificar cada uno de los roles y perfiles que se tendrá cada usuario hacia los sistemas de información cumpliendo con el principio del menor privilegio, teniendo en cuenta que los usuarios deberán tener exclusivamente los permisos y privilegios que necesita para el desarrollo de sus actividades. La matriz identificará i) los roles que se deben crear para cada sistema de información, ii) los privilegios que requiere cada rol del sistema y iii) los niveles de accesos requeridos, (Consultar, Modificar, Eliminar) (CRUD) y iv) Tipos de usuarios, roles que pueden ser asignados al perfil, entre otros.  
-
-### Configuración de Permisos 
-La configuración con de los perfiles con sus accesos y privilegios en los sistemas de información se debe realizar empleando las herramientas propias de la procuraduría general de la nacional PGN, y serán asignados los permisos según la matriz de roles y permisos.  
-
-En este ítem se deben identificar las herramientas con las que cuenta la entidad, las cuales deberán ser registradas en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_1 (Mecanismos)”. 
-
-### Identificación de Roles y Privilegios 
-Este ítem proporciona al sistema la definición de las políticas organizacionales en cuanto a la definición de los privilegios y roles de los diferentes actores en cada uno de los aplicativos con los que estos interactúan dentro de sus funciones, registradas en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_2 (Roles)”. 
-
-### Aprovisionamiento de Cuentas 
-Este ítem establece el proceso adecuado para el aprovisionamiento y des aprovisionamiento de cuentas de usuarios en las diferentes aplicaciones, permitiendo toda la gestión de ellas por medio de un sistema de directorio único y centralizado, Este aprovisionamiento se encuentra registrado en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_4 y Hoja_5 (Permisos)”. 
-
-### Establecimiento de mecanismos de control de acceso 
-Este ítem controla que usuarios tienen permitido el acceso a los diferentes aplicativos o herramientas dentro de la organización permitiendo segregar las funciones dependiendo del rol del usuario en cada sistema, Este establecimiento se encuentra registrado en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_3 (Acceso)”. 
-
-### Definición de Privilegios y Accesos
-Los accesos y privilegios serán identificados en la matriz, encargado identificar cada uno de los roles y perfiles que se tendrá cada usuario hacia los sistemas de información cumpliendo con el principio del menor privilegio, teniendo en cuenta que los usuarios deberán tener exclusivamente los permisos y privilegios que necesita para el desarrollo de sus actividades. La matriz identificará i) los roles que se deben crear para cada sistema de información, ii) los privilegios que requiere cada rol del sistema y iii) los niveles de accesos requeridos, (Consultar, Modificar, Eliminar) (CRUD) y iv) Tipos de usuarios, roles que pueden ser asignados al perfil, entre otros.  
-
-### Configuración de Permisos
-La configuración con de los perfiles con sus accesos y privilegios en los sistemas de información se debe realizar empleando las herramientas propias de la procuraduría general de la nacional PGN, y serán asignados los permisos según la matriz de roles y permisos.  
-
-Con el objetivo de incrementar el nivel de seguridad, para el proceso de autenticación se tendrán en cuenta las siguientes consideraciones:  
-
-Validación del proceso de gestión de usuarios: La fortaleza de la autenticación dependerá del proceso de gestión de usuarios implementado por parte de la entidad. Se debe tener en cuenta los lineamientos definidos en la política Específica de Control de Acceso.  
-
-Autenticación con integración de Windows: La autenticación permitirá que los usuarios asignados al dominio, una vez que se ingresen las credenciales, y realizada la validación, se autorizará el acceso a los servicios y/o soluciones a partir de la integración del directorio activo con la integración del LDAP – (Lightweight Directory Access Protocol).  
-
-Los tipos de autenticación realizadas a partir de las identidades administradas de los recursos de Azure, entidades de Servicio y Certificados, podrán ser integrado con los dominios del directorio activo (DA) local. Por lo que respecta a la autenticación, será generado con la asignación de usuarios y credenciales definidas alineadas con la política Específica de Control de Acceso., a partir de la integración será validado el ingreso a las diferentes soluciones y/o sistemas de información de la PGN.  
-
-Manejo y uso de contraseñas: Los servidores públicos deberán tener en cuenta los lineamientos definidos para la creación y gestión de contraseñas del Sistema de Gestión de Seguridad de la Información SGSI de la Procuraduría General de la Nación. 
-
-Utilización de canales cifrados: El proceso de autenticación tendrá mecanismos de transmisión seguro. El uso del TLS (Transport Layer Security), será necesario para el acceso a la página de autenticación que ayude a garantizar la autenticidad de la aplicación a los funcionarios, como en la transmisión de las credenciales.  
-
-Bloqueo de cuentas: Aquellas cuentas sobre las que se han realizados múltiples intentos de conexiones fallidas, cinco (5) intentos erróneos, se tendrá implementado un bloqueo temporal o permanente como mecanismo de seguridad para evitar amenazas de ataques.  
-
-Proteger la información propia de la PGN utilizando mecanismos de cifrado que permita garantizar los pilares de Segurida de la Información Confidencialidad e integridad, asimismo reducir los riesgos de la información mediante la ayuda de Técnicas Criptograficas. 
-
-Como mecanismos se propone implementar estos mecanismos de cifrado, como el protocolo TLS ( Transport Layer Security) que permite a dos partes identificarse y autenticarse entre sí y comunicarse con confidencialidad e integridad de datos a partir de la conexión del usuario y un servidor WEB.
-
-Se propone integrar certificados SSL, que permite cifrar la información confidencial a fin de que solo los autorizados puedan tener acceso a ella, y así evitar manipulación de información confidencial. La Seguridad que brinda SSL, da garantía para acceder a los aplicativos de PNG. 
-
-### Cómo implementar certificados SSL
-Podrán ser adquiridos a través del proveedor de dominios.
-
-TLS el protocolo que surge para reforzar la seguridad de los certificados SSL, que funciona como mecanismo de encriptación para que sea realmente transparente el envío de la información, proporcionando una autenticación sólida, restringiendo la manipulación, interceptación y alteración de mensajes.
-
-La última versión del TLS es la 1.3
-
-
-### Representación Arquitectónica
-Con una arquitectura orientada a servicios SUI recopila:
-
-1. Runtime: Es el servicio que interactúa con el usuario final (GUI) elaborado en Angular 11
-1. API Tx: Servicio API REST Base Node encargado de realizar las transacciones básicas CRUD
-1. API Config / Seguridad. Servicio Web API .Net Framework encargado de gestionar características con la autenticación y configuración
-
-<br>
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Application Collaboration**|application-collaboration|||
-|**Application Collaboration**|application-collaboration|||
-|**App**|application-component||*plataforma:* node Js<br>*brecha:* 100<br>|
-|**App PGN Móvil**|application-component|<br>|*plantilla:* element-md-bold<br>*brecha:* 100<br>|
-|**App PGN Web**|application-component||*plataforma:* angular 11<br>*brecha:* 100<br>|
-|**Config**|application-component||*plataforma:* cs<br>|
-|**Punto acceso público**|application-interface|URL tipo C<br>HTTP||
-|**Application Service (NLB)**|application-service||*plataforma:* angular 11<br>*brecha:* 100<br>|
-|**Interfaz de datos 1**|application-service|||
-|**Interfaz de datos 2**|application-service|||
-|**Autenticación**|business-object|||
-|**Autorización**|business-object|||
-|**Cifrado de Datos en tránsito**|business-object|||
-|**Cifrado de datos en tránsito**|business-object|||
-|**Communication Network (DMZ)**|communication-network|||
-|**Communication Network (LAN)**|communication-network|||
-|**Communication Network (internet)**|communication-network|||
-|**Balanceador**|node|||
-|**Firewall BDD**|node||*brecha:* 100<br>|
-|**Network Firewall/WAF**|node||*brecha:* 100<br>|
-|**Servidor BDD App**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
-|**Servidor BDD Config**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br>||
-|**Servidor Web App**|node|Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM 8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos SO C: 126 GB. SO D: 16 GB.<br>||
-|**Servidor Web Canales**|node|Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br>||
-|**Sistema de Seguridad (LDAP) 1**|node|Sistema de Seguridad (LDAP) 1. Control de acceso internet, <br>La autenticación podrá estar integrada con el directorio activo, a partir de la generación de codigo para ek ingreso con 2FA, que podrá generar un código la plataforma de correo corporativo, el cual solicitará el codigo de autenticacion y una vez ingreado podrá redirigir al sitio.<br>|*brecha:* 100<br>|
-|**Sistema de Seguridad (LDAP) 2**|node|Sistema de Seguridad (LDAP) 2. Control de acceso internet, <br>La solución se podra integrar con el directorio activo, a partir de la generación del 2FA, que podrá generar un  codigo por desde la plataforma de office 365, el cual solicitará el codigo de autenticacion y una vez ingreado podrá acceder al sitio. <br>|*brecha:* 100<br>|
-|**www pgn com**|technology-interface|||
-
-<br>
-
-## Migracion.6. Migración de datos
-![Vista. Migracion.6. Migración de datos](images/Migracion.6.Migracióndedatos.png){#fig:Migracion.6.Migracióndedatos width=5.32in}
-
-Modelo de acceso a datos de negocio del SIM. 
-
-La imagen siguiente presenta la organización de los ítems de transporte de datos de negocio necesarios para que los módulos del SUI puedan recolectar, procesar, integrar y almacenarlo de forma organizada y escalable.
-
-Mediante esta organización, los datos de negocio son transportados desde sus respectivas fuentes mediante interfaces (principio de extensión y mantenibilidad referidos en las restricciones de la arquitecura del SUI Migrado). Los datos externos, entendidos como los de otros proveedores, son obtenidos mediante un intermediario: una API externa (_reverse proxy_).
-
-Consideramos tres tipos datos: datos transaccionales, históricos y externos, y presentamos una manera distinta de tratarlos y transportarlos.
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**cc:PGN SUI (módulo central)**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**cc:PGN SUI (módulo central)**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**cc:PGN SUI (módulo central) 2**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**cc:PGN SUI (módulo central) 2**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**cc:PGN SUI (módulo central) 3**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**cc:PGN SUI (módulo central) 3**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**cc:PGN SUI (módulo central) N**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**cc:PGN SUI (módulo central) N**|application-collaboration|Módulo central SUI migrado. Módulo independiente y asignado a un dominio particular de la PGN.<br>||
-|**API SUI**|application-interface|API de representación del módulo. Centralización de la comunicación con otros módulos del SUI migrado.<br>||
-|**API SUI**|application-interface|API de representación del módulo. Centralización de la comunicación con otros módulos del SUI migrado.<br>||
-|**API SUI 2**|application-interface|API de representación del módulo. Centralización de la comunicación con otros módulos del SUI migrado.<br>||
-|**API SUI 2**|application-interface|API de representación del módulo. Centralización de la comunicación con otros módulos del SUI migrado.<br>||
-|**API SUI 3**|application-interface|API de representación del módulo. Centralización de la comunicación con otros módulos del SUI migrado.<br>||
-|**API SUI 3**|application-interface|API de representación del módulo. Centralización de la comunicación con otros módulos del SUI migrado.<br>||
-|**API SUI N**|application-interface|API de representación del módulo. Centralización de la comunicación con otros módulos del SUI migrado.<br>||
-|**API SUI N**|application-interface|API de representación del módulo. Centralización de la comunicación con otros módulos del SUI migrado.<br>||
-|**interfaz**|application-interface|||
-|**interfaz**|application-interface|||
-|**interfaz**|application-interface|||
-|**interfaz**|application-interface|||
-|**interfaz**|application-interface|||
-|**interfaz**|application-interface|||
-|**Communication Network (LAN)**|communication-network|||
-|**Communication Network (LAN)**|communication-network|||
-|**Grouping**|grouping|||
-|**Grouping**|grouping|||
-|**Servidor BDD App**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
-|**Servidor BDD App**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
-|**Servidor BDD App 2**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
-|**Servidor BDD App 3**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
-|**Servidor BDD App 4**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
-|**Servidor BDD Config**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br>||
-
-<br>
-
-<div style="page-break-before: always;"></div>
-\newpage
-
-# Documento sobre especificaciones técnicas de infraestructura TI
-## Lineabase.0.SUI Aplicación. Física
-![Vista. Lineabase.0.SUI Aplicación. Física](images/Lineabase.0.SUIAplicación.Física.png){#fig:Lineabase.0.SUIAplicación.Física width=}
-
-Procuraduría General de la Nación (PGN), módulo Sistema Único de Información (SUI), 2023. Elementos físicos que soportan a la aplicación doc Sistema Único de Información (SUI) de la PGN, actual Fase I y existente en Fase II. Presentación de componentes de software y tecnología física (hardware) implementados en la Fase I y requeridos por Fase II (presente proyecto).
-
-### Representación de Arquitectura
-Con una arquitectura orientada a servicios Sistema Único de Información (SUI) recopila:
-
-1. Runtime: Es el servicio que interactúa con el usuario final (GUI) elaborado en Angular 11
-1. API Tx: Servicio API REST Base Node encargado de realizar las transacciones básicas CRUD
-1. API Config / Seguridad. Servicio Web API .Net Framework encargado de gestionar características con la autenticación y configuración
-
-<br>
-
-### Especificaciones Plataformas y Versiones
-* Angular, versión 11
-* Node Js, versión 14.16
-* Net Entity Framework, versión 4.7
-* Sequelize, versión 5.3
-
-<br>
-
-### Especificaciones de Librerías y Dependencias
-* Web Server (IIS) role
-* Windows Process Activation Service feature
-* Microsoft .NET Framework version 3.5
-* Microsoft .NET Framework version 4.7.2
-* Microsoft SQL Server 2012 Service Pack 4 Native Client
-* Microsoft WCF Data Services 5.6
-* Microsoft Identity Extensions
-* Microsoft Information Protection and Control Client 2.1 (MSIPC)
-* Cumulative Update Package 7 for Microsoft AppFabric 1.1 for Windows Server (KB 3092423)
-* Visual C++ Redistributable Package for Visual Studio 2012
-* Visual C++ Redistributable Package for Visual Studio 2017
-
-<br>
-
-### Especificaciones Base de Servidores
-
-| Servidor de Aplicaciones | Especificaciones del Servidor            |
-|-------------------|-------------------------------------------------|
-| Sistema Operativo | Windows Server 2019 Standard or Datacenter x64  |
-| RAM               | 16 GB                                            |
-| CPU               | 64 Bits, mínimo 4 Cores > 2 Ghz                 |
-| Discos            | C: 120 GB, D: 16 GB    |    
-| Físico/virtual    | Virtual                                         |
-| Roles / Features  | Web Server (IIS) role                           |
-|                   | Windows Process Activation Service feature      |
-|                   | Microsoft .NET Framework version 3.5            |
-
-<br>
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Application Collaboration**|application-collaboration|||
-|**Application Collaboration**|application-collaboration|||
-|**App**|application-component||*plataforma:* node Js<br>*brecha:* 100<br>|
-|**App PGN Móvil**|application-component|<br>|*plantilla:* element-md-bold<br>*brecha:* 100<br>|
-|**App PGN Web**|application-component||*plataforma:* angular 11<br>*brecha:* 100<br>|
-|**Config**|application-component||*plataforma:* cs<br>|
-|**Punto acceso público**|application-interface|URL tipo C<br>HTTP||
-|**Application Service (NLB)**|application-service||*plataforma:* angular 11<br>*brecha:* 100<br>|
-|**Interfaz de datos 1**|application-service|||
-|**Interfaz de datos 2**|application-service|||
-|**Communication Network (DMZ)**|communication-network|||
-|**Communication Network (LAN)**|communication-network|||
-|**Communication Network (internet)**|communication-network|||
-|**Balanceador**|node|||
-|**Servidor BDD App**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
-|**Servidor BDD Config**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz. Discos SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br>||
-|**Servidor Web App**|node|Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM 8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos SO C: 126 GB. SO D: 16 GB.<br>||
-|**Servidor Web Canales**|node|Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br>||
-|**www pgn com**|technology-interface|||
-
-<br>
-
-
-``Generated on: Tue Dec 05 2023 13:55:04 GMT-0500 (COT)``
+``Generated on: Thu Dec 14 2023 15:59:14 GMT-0500 (COT)``
 
 ## Requerimientos de Administración
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
